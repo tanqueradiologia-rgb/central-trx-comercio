@@ -1,0 +1,66 @@
+{
+ "gerado": "2026-11-12T19:21",
+ "teto": 60000.0,
+ "ufs": [
+  "DF",
+  "GO"
+ ],
+ "itens": [
+  {
+   "id": "00394700000108-1-000457/2026",
+   "orgao": "DISTRITO FEDERAL SECRETARIA DE SAUDE",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 260/2026",
+   "objeto": "Aquisição regular de insumos para a saúde, DISCO DE LIXA e outros, em sistema de registro de preços, para atender às necessidades da Secretaria de Saúde – DF, conforme especificações e quantitativos constantes no Anexo I do Edital.",
+   "valor": null,
+   "prazo": "2026-11-13",
+   "link": "https://pncp.gov.br/app/editais/00394700000108/2026/457",
+   "visto_em": "2026-11-12T19:21",
+   "novo_em": "2026-11-12"
+  },
+  {
+   "id": "25141524000123-1-001003/2026",
+   "orgao": "SECRETARIA MUNICIPAL DE SAUDE",
+   "cidade": "Goiânia",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 113/2026",
+   "objeto": "Aquisição insumos odontológicos, por meio da modalidade PREGÃO ELETRÔNICO EM REMESSA ÚNICA, a fim de atender às demandas das Unidades de Saúde da Secretaria Municipal de Saúde de Goiânia, conforme condições e exigências estabelecidas",
+   "valor": null,
+   "prazo": "2026-11-16",
+   "link": "https://pncp.gov.br/app/editais/25141524000123/2026/1003",
+   "visto_em": "2026-11-12T19:21",
+   "novo_em": "2026-11-12"
+  },
+  {
+   "id": "01409580000138-1-001706/2026",
+   "orgao": "ESTADO DE GOIAS",
+   "cidade": "Goiânia",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 120997/2026",
+   "objeto": "Aquisição de materiais médicos hospitalares, para atender as unidades administrativas e assistenciais da Secretaria de Estado da Saúde de Goiás (SES-GO). Os materiais médicos são utilizados no desenvolvimento de atividades e assistência à população. As revisões das descrições, levantamento das quantidades, forma de entrega e requisitos a serem exigidos, foram definidos pelos integrantes indicados no Processo 202500010089053.",
+   "valor": null,
+   "prazo": "2026-11-23",
+   "link": "https://pncp.gov.br/app/editais/01409580000138/2026/1706",
+   "visto_em": "2026-11-12T19:21",
+   "novo_em": "2026-11-12"
+  },
+  {
+   "id": "11409678000149-1-000024/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DE PIRENOPOLIS",
+   "cidade": "Pirenópolis",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 30/2026",
+   "objeto": "AQUISIÇÃO DE MATERIAIS HOSPITALARES ",
+   "valor": null,
+   "prazo": "2026-11-25",
+   "link": "https://pncp.gov.br/app/editais/11409678000149/2026/24",
+   "visto_em": "2026-11-12T19:21",
+   "novo_em": "2026-11-12"
+  }
+ ]
+}
