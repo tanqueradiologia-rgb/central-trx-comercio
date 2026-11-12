@@ -1,0 +1,43 @@
+{
+  "empresa": {
+    "razao": "TRX COMERCIO DE PRODUTOS HOSPITALARES LTDA",
+    "cnpj": "69.495.037/0001-34",
+    "nire": "53203949688",
+    "porte": "EPP",
+    "sede": "SIA Quadra 5-C, AE 14, Sala 204, Parte A, Brasília-DF (mesma sede da TRX Diagnóstico)",
+    "administradora": "Natália Aparecida de Medeiros Sales",
+    "licitacao_estoque": "Wagner",
+    "foco": "Descartáveis, produtos de aprovação sanitária mais simples e produtos radiológicos (filmes, insumos e contraste)"
+  },
+  "acessos": [
+    "Marcos", "Natália", "Carla", "Wagner", "Ana Carolina",
+    "Bruno Sato", "Henrique", "Vinícius", "Diogo"
+  ],
+  "drive": {
+    "pasta": "https://drive.google.com/drive/folders/17tmhkx6QGzJ6pik47iipRxHuwte01LuT",
+    "repositorio": "https://drive.google.com/drive/folders/10Hu6M6btrXiu0oj6HI0sA3UmwUC6HY3R",
+    "indice": "https://docs.google.com/spreadsheets/d/10iuXmjGcrgdFqQeewHYSyAS7GxpSBIrvmttxp4MdSfM/edit"
+  },
+  "documentos": [
+    {"doc": "Contrato social registrado (JUCIS-DF 28/09/2026)", "st": "OK", "onde": "01 - Societario"},
+    {"doc": "Cartão CNPJ (situação ATIVA, 06/10/2026)", "st": "OK", "onde": "01 - Societario"},
+    {"doc": "Inscrição estadual / CF-DF", "st": "OK", "onde": "02 - Certidoes e regularidade"},
+    {"doc": "Certidão simplificada JUCIS-DF", "st": "A EMITIR", "onde": ""},
+    {"doc": "CND Federal (Receita/PGFN)", "st": "A EMITIR", "onde": ""},
+    {"doc": "CRF FGTS", "st": "A EMITIR", "onde": ""},
+    {"doc": "CNDT (débitos trabalhistas)", "st": "A EMITIR", "onde": ""},
+    {"doc": "Certidão negativa de débitos DF", "st": "A EMITIR", "onde": ""},
+    {"doc": "Certidão de falência e recuperação judicial (TJDFT)", "st": "A EMITIR", "onde": ""},
+    {"doc": "Cadastro SICAF", "st": "A EMITIR", "onde": ""},
+    {"doc": "Consulta consolidada TCU-CNJ (PJ)", "st": "A EMITIR", "onde": ""},
+    {"doc": "Licença sanitária VISA-DF (comércio de produtos para saúde)", "st": "A PROVIDENCIAR", "onde": ""},
+    {"doc": "AFE ANVISA (distribuição de produtos para saúde)", "st": "A PROVIDENCIAR", "onde": "conferir exigência por classe de produto"},
+    {"doc": "Responsável técnico e certidão de regularidade", "st": "A DEFINIR", "onde": ""},
+    {"doc": "Contrato de locação da sala 204 (compartilhado com a TRX Diagnóstico)", "st": "CONFERIR", "onde": "o PDF arquivado está só em nome da Tanque Radiologia; se há versão com a TRX Comércio, arquivar"}
+  ],
+  "comprovantes": {
+    "instrucao": "Envie cada comprovante (nota de compra, pagamento, frete) para a pasta do Drive abaixo, com o nome AAAA-MM-DD_descricao.pdf. A área de upload direto pela Central entra na próxima fase.",
+    "pasta": "https://drive.google.com/drive/folders/17tmhkx6QGzJ6pik47iipRxHuwte01LuT"
+  },
+  "licitacoes": []
+}
