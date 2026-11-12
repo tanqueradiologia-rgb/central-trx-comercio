@@ -70,7 +70,7 @@ a{color:var(--accent)}
     <a href="#visao" data-tab="visao">Visão geral</a>
     <a href="#documentos" data-tab="documentos">Documentos</a>
     <a href="#comprovantes" data-tab="comprovantes">Comprovantes</a>
-    <a href="#licitacoes" data-tab="licitacoes">Licitações</a>
+    <a href="#licitacoes" data-tab="licitacoes">Licitações<span class="badge" id="n-lic" style="margin-left:6px"></span></a>
     <button class="tema" id="tema" type="button">Tema escuro</button>
     <button class="tema" id="sair" type="button" hidden title="Apaga a senha guardada neste aparelho">Sair</button>
   </nav>
@@ -90,7 +90,10 @@ a{color:var(--accent)}
     <div class="card"><h2>Como enviar um comprovante</h2><p id="c-instrucao"></p><p id="c-link"></p></div>
   </section>
   <section class="pane" id="pane-licitacoes" hidden>
-    <div class="card"><h2>Licitações do comércio</h2><div id="l-lista" class="vazio">Nenhum processo lançado ainda. Esta área recebe os processos da TRX Comércio quando a frente começar a disputar.</div></div>
+    <div class="card"><h2>Radar de licitações pequenas · descartáveis</h2>
+      <p class="meta" id="l-sobre"></p>
+      <div id="l-lista" class="vazio">O radar ainda não rodou. A primeira lista aparece na próxima rodada diária.</div>
+    </div>
   </section>
 </main>
 
@@ -169,7 +172,22 @@ $("#t-docs").innerHTML=(D.documentos||[]).map(d=>'<tr><td><b>'+esc(d.doc)+'</b><
 const C=D.comprovantes||{};
 $("#c-instrucao").textContent=C.instrucao||"";
 $("#c-link").innerHTML=C.pasta?'<a href="'+esc(C.pasta)+'" target="_blank" rel="noopener">Abrir a pasta de comprovantes no Drive ↗</a>':"";
-if((D.licitacoes||[]).length){ $("#l-lista").classList.remove("vazio"); $("#l-lista").innerHTML=D.licitacoes.map(l=>'<p><b>'+esc(l.orgao||"")+'</b> · '+esc(l.objeto||"")+'</p>').join(""); }
+const R=D.radar||{itens:[]};
+function brData(i){ return i?i.slice(8,10)+"/"+i.slice(5,7)+"/"+i.slice(2,4):"—"; }
+function brValor(v){ return (v===null||v===undefined)?"—":"R$ "+Number(v).toLocaleString("pt-BR",{maximumFractionDigits:0}); }
+if(R.gerado){ $("#l-sobre").textContent="Busca diária no PNCP por compras de descartáveis hospitalares até "+brValor(R.teto)+", em "+(R.ufs||[]).join(" e ")+". Última rodada: "+brData(R.gerado)+" "+(R.gerado||"").slice(11)+". Régua desta fase: volumes pequenos, pelo fluxo de caixa; refinamos com o uso."; }
+if((R.itens||[]).length){
+  const abertos=R.itens.filter(i=>!i.prazo||i.prazo>=D.gerado.slice(0,10));
+  $("#n-lic").textContent=abertos.length||"";
+  $("#l-lista").classList.remove("vazio");
+  $("#l-lista").innerHTML='<div class="tbl"><table><thead><tr><th>Prazo</th><th>Órgão</th><th>Objeto</th><th>Valor</th><th>Modalidade</th><th></th></tr></thead><tbody>'
+    +R.itens.map(i=>'<tr'+(i.novo_em===D.gerado.slice(0,10)?' style="background:var(--accent-soft)"':'')+'><td class="mono">'+brData(i.prazo)+'</td>'
+      +'<td><b>'+esc(i.orgao)+'</b><div class="meta">'+esc([i.cidade,i.uf].filter(Boolean).join(" · "))+'</div></td>'
+      +'<td class="meta">'+esc((i.objeto||"").slice(0,220))+'</td>'
+      +'<td class="mono">'+brValor(i.valor)+'</td><td class="meta">'+esc(i.modalidade||"—")+'</td>'
+      +'<td>'+(i.link?'<a href="'+esc(i.link)+'" target="_blank" rel="noopener">PNCP ↗</a>':'')+'</td></tr>').join("")
+    +'</tbody></table></div><p class="meta">Linha destacada entrou hoje. Quem decide participar é o Marcos; o Wagner prepara a proposta.</p>';
+}
 const TABS=["visao","documentos","comprovantes","licitacoes"];
 function show(t){ if(!TABS.includes(t)) t="visao";
   TABS.forEach(x=>{ document.getElementById("pane-"+x).hidden=x!==t;

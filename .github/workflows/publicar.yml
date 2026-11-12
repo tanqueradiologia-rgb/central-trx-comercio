@@ -4,6 +4,10 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
+  schedule:
+    # Minuto quebrado de propósito: o agendador do GitHub descarta gatilhos no minuto cheio
+    # (lição m120 da Central de laudos). Duas rodadas por dia, 07h23 e 13h23 de Brasília.
+    - cron: "23 10,16 * * *"
 
 permissions:
   contents: read
@@ -17,12 +21,33 @@ concurrency:
 jobs:
   montar:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install cryptography
+      - name: Radar de licitações pequenas de descartáveis (PNCP)
+        id: radar
+        continue-on-error: true
+        timeout-minutes: 12
+        run: python scripts/radar_comercio.py
+      - name: Gravar o resultado do radar no repositório
+        if: steps.radar.outcome == 'success'
+        run: |
+          git config user.name "radar-comercio"
+          git config user.email "noreply@github.com"
+          git add data/radar.json
+          git diff --cached --quiet || git commit -m "dados: radar $(date -u -d '-3 hours' '+%d/%m %H:%M')"
+          git pull --rebase origin main || true
+          git push origin main || echo "::warning::push do radar falhou; a página desta rodada ainda sai com os dados novos"
+      - name: Avisar se o radar falhou
+        if: steps.radar.outcome == 'failure'
+        run: echo "::warning::O radar PNCP do comércio falhou nesta rodada; a página sai com a última lista gravada."
       - name: Gerar os dados da página
         run: python scripts/build.py
       - name: Cifrar com a senha da equipe do comércio
