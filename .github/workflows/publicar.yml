@@ -34,7 +34,9 @@ jobs:
       - name: Radar de licitações pequenas de descartáveis (PNCP)
         id: radar
         continue-on-error: true
-        timeout-minutes: 12
+        timeout-minutes: 20
+        env:
+          PYTHONUNBUFFERED: "1"
         run: python scripts/radar_comercio.py
       - name: Gravar o resultado do radar no repositório
         if: steps.radar.outcome == 'success'

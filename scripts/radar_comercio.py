@@ -55,20 +55,21 @@ def sem_acento(t):
 
 def buscar(termo):
     itens, pagina = [], 1
-    while pagina <= 2:
+    # 1 página por termo, ordenada por -data: a rodada é diária e incremental, não precisa varrer fundo.
+    while pagina <= 1:
         q = urllib.parse.urlencode({"tipos_documento": "edital", "status": "recebendo_proposta",
                                     "q": termo, "tam_pagina": 100, "pagina": pagina,
                                     "ordenacao": "-data"})
         req = urllib.request.Request(f"{URL}?{q}", headers={"User-Agent": "central-trx-comercio/1.0",
                                                            "Accept": "application/json"})
         doc = None
-        for tentativa in range(4):
+        for tentativa in range(2):
             try:
-                with urllib.request.urlopen(req, timeout=40) as r:
+                with urllib.request.urlopen(req, timeout=25) as r:
                     doc = json.load(r)
                 break
             except Exception:
-                if tentativa == 3:
+                if tentativa == 1:
                     raise
                 time.sleep(5 * (tentativa + 1) ** 2)
         lote = doc.get("items") or []
