@@ -1,0 +1,398 @@
+{
+ "gerado": "2026-11-12T21:32",
+ "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
+ "conhecidas": [
+  {
+   "dominio": "compras.gov.br",
+   "nome": "Compras.gov.br / SICAF",
+   "tipo": "federal",
+   "abrangencia": "Uniao e entes que aderem",
+   "prioridade": 1,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH."
+  },
+  {
+   "dominio": "gov.br",
+   "nome": "Portal gov.br (generico)",
+   "tipo": "federal",
+   "abrangencia": "Nacional",
+   "prioridade": 9,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Dominio guarda-chuva. Nao conta como plataforma por si."
+  },
+  {
+   "dominio": "pncp.gov.br",
+   "nome": "PNCP",
+   "tipo": "federal, so divulgacao",
+   "abrangencia": "Nacional",
+   "prioridade": 9,
+   "situacao_comercio": "em uso",
+   "nota": "Publicacao obrigatoria. Nao se disputa nele."
+  },
+  {
+   "dominio": "portal.compras.df.gov.br",
+   "nome": "e-Compras DF",
+   "tipo": "estadual",
+   "abrangencia": "Distrito Federal",
+   "prioridade": 1,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Sede da empresa. GDF e SES-DF compram material todo mes."
+  },
+  {
+   "dominio": "comprasnet.go.gov.br",
+   "nome": "ComprasNet GO",
+   "tipo": "estadual",
+   "abrangencia": "Goias",
+   "prioridade": 2,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Vizinho do DF, frete curto."
+  },
+  {
+   "dominio": "bec.sp.gov.br",
+   "nome": "BEC-SP",
+   "tipo": "estadual",
+   "abrangencia": "Sao Paulo",
+   "prioridade": 3,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Exige cadastro previo no CAUFESP."
+  },
+  {
+   "dominio": "compras.mg.gov.br",
+   "nome": "Portal de Compras MG (CAGEF/SIAD)",
+   "tipo": "estadual",
+   "abrangencia": "Minas Gerais",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "compras.rj.gov.br",
+   "nome": "SIGA-RJ",
+   "tipo": "estadual",
+   "abrangencia": "Rio de Janeiro",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "celic.rs.gov.br",
+   "nome": "CELIC / Compras RS",
+   "tipo": "estadual",
+   "abrangencia": "Rio Grande do Sul",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "compras.es.gov.br",
+   "nome": "Compras ES",
+   "tipo": "estadual",
+   "abrangencia": "Espirito Santo",
+   "prioridade": 5,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "comprasnet.ba.gov.br",
+   "nome": "Comprasnet BA",
+   "tipo": "estadual",
+   "abrangencia": "Bahia",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "comprasnet.se.gov.br",
+   "nome": "Comprasnet SE",
+   "tipo": "estadual",
+   "abrangencia": "Sergipe",
+   "prioridade": 5,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "licitacoes-e.com.br",
+   "nome": "Licitacoes-e (Banco do Brasil)",
+   "tipo": "privada de banco publico",
+   "abrangencia": "Nacional, forte na BA",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "licitacoes.caixa.gov.br",
+   "nome": "Portal de Compras da Caixa",
+   "tipo": "federal",
+   "abrangencia": "Caixa",
+   "prioridade": 6,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "portaldecompraspublicas.com.br",
+   "nome": "Portal de Compras Publicas",
+   "tipo": "privada",
+   "abrangencia": "Municipios de MG, PA, SP e outros",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bll.org.br",
+   "nome": "BLL Compras",
+   "tipo": "privada",
+   "abrangencia": "Municipios e consorcios",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bllcompras.com",
+   "nome": "BLL Compras (dominio alternativo)",
+   "tipo": "privada",
+   "abrangencia": "Municipios e consorcios",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "licitanet.com.br",
+   "nome": "LICITANET",
+   "tipo": "privada",
+   "abrangencia": "Municipios de MG, TO, BA, PI",
+   "prioridade": 2,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Perfil de municipio pequeno, que e o volume inicial desejado."
+  },
+  {
+   "dominio": "licitar.digital",
+   "nome": "Licitar Digital",
+   "tipo": "privada",
+   "abrangencia": "Municipios",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "licitardigital.com.br",
+   "nome": "Licitar Digital (dominio alternativo)",
+   "tipo": "privada",
+   "abrangencia": "Municipios",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bnc.org.br",
+   "nome": "BNC - Bolsa Nacional de Compras",
+   "tipo": "privada",
+   "abrangencia": "Municipios de varios estados",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bnccompras.com",
+   "nome": "BNC (dominio alternativo)",
+   "tipo": "privada",
+   "abrangencia": "Municipios",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bbmnetlicitacoes.com.br",
+   "nome": "BBMNET",
+   "tipo": "privada",
+   "abrangencia": "Municipios e estados",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "ammlicita.org.br",
+   "nome": "AMM Licita",
+   "tipo": "privada de associacao",
+   "abrangencia": "Municipios de MG",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "atende.net",
+   "nome": "atende.net (IPM)",
+   "tipo": "privada",
+   "abrangencia": "Prefeituras do Sul e Sudeste",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "portalfornecedor.isgh.org.br",
+   "nome": "Portal Fornecedor ISGH",
+   "tipo": "regulamento proprio",
+   "abrangencia": "8 hospitais e 6 UPAs no Ceara",
+   "prioridade": 1,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "apoiocotacoes.com.br",
+   "nome": "APOIO Cotacoes (IGES-DF)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Hospital de Base, HRSM e UPAs do DF",
+   "prioridade": 1,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bionexo.com",
+   "nome": "Bionexo / Publinexo",
+   "tipo": "regulamento proprio",
+   "abrangencia": "OSS: SECONCI-SP, IGH, INDSH e outras",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "smarkets.com.br",
+   "nome": "Smarkets (IMED)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "6 unidades em GO e SP",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "paradigmabs.com.br",
+   "nome": "Paradigma SRM 360 (CEJAM)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Unidades em SP",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "compras.prosaude.org.br",
+   "nome": "Central de Compras Pro-Saude",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Unidades em varios estados",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "prosaude.org.br",
+   "nome": "Pro-Saude (site)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Varios estados",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "spdm.org.br",
+   "nome": "SPDM Compras e Editais",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Unidades em SP e outros estados",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "conlicitacao.com.br",
+   "nome": "ConLicitacao",
+   "tipo": "agregador, nao disputa",
+   "abrangencia": "Nacional",
+   "prioridade": 9,
+   "situacao_comercio": "nao se aplica",
+   "nota": "Busca e monitoramento, nao e plataforma de disputa."
+  }
+ ],
+ "entes_regulamento_proprio": [
+  {
+   "ente": "EBSERH / HU Brasil",
+   "onde": "Compras.gov.br e PNCP, por UASG",
+   "entrada": "SICAF ativo; compra centralizada na UASG 155007 e compra por hospital",
+   "prioridade": 1,
+   "nota": "Maior comprador de material hospitalar fora do radar ate 12/11/2026. Pede registro ANVISA, licenca e AFE quando aplicavel, e amostra depois da classificacao."
+  },
+  {
+   "ente": "ISGH",
+   "onde": "Portal Fornecedor proprio, fora do PNCP",
+   "entrada": "Cadastro com CNPJ proprio",
+   "prioridade": 1,
+   "nota": ""
+  },
+  {
+   "ente": "IGES-DF",
+   "onde": "APOIO Cotacoes",
+   "entrada": "Cadastro por categoria",
+   "prioridade": 1,
+   "nota": "Esta em Brasilia."
+  },
+  {
+   "ente": "IMED",
+   "onde": "Smarkets",
+   "entrada": "Cadastro",
+   "prioridade": 3,
+   "nota": "Inclui GO."
+  },
+  {
+   "ente": "CEJAM",
+   "onde": "Paradigma SRM 360",
+   "entrada": "Homologacao de fornecedor",
+   "prioridade": 4,
+   "nota": "gestaodefornecedores@cejam.org.br"
+  },
+  {
+   "ente": "SPDM",
+   "onde": "Area de Compras e Editais do site",
+   "entrada": "Cadastro pelo site",
+   "prioridade": 3,
+   "nota": "Uma das maiores OSS do pais."
+  },
+  {
+   "ente": "Pro-Saude",
+   "onde": "Central de Compras propria",
+   "entrada": "Area Seja um Fornecedor",
+   "prioridade": 3,
+   "nota": ""
+  },
+  {
+   "ente": "SECONCI-SP, IGH, INDSH",
+   "onde": "Bionexo / Publinexo",
+   "entrada": "Cadastro e autorizacao de usuario",
+   "prioridade": 2,
+   "nota": "Abre varias OSS de uma vez."
+  },
+  {
+   "ente": "FESF-SUS",
+   "onde": "Licitacoes-e do Banco do Brasil",
+   "entrada": "Cadastro no licitacoes-e",
+   "prioridade": 4,
+   "nota": ""
+  },
+  {
+   "ente": "Consorcios intermunicipais de saude",
+   "onde": "PNCP mais a plataforma que o edital indicar",
+   "entrada": "Mesmo cadastro das plataformas privadas",
+   "prioridade": 1,
+   "nota": "CIS, CISRU, CISNORJE, CONIMS, CINCATARINA e outros. Compram material para varios municipios de uma vez e aceitam fornecedor pequeno."
+  },
+  {
+   "ente": "Santas Casas e hospitais filantropicos",
+   "onde": "Compra direta, cotacao por e-mail ou Bionexo",
+   "entrada": "Contato comercial direto",
+   "prioridade": 3,
+   "nota": ""
+  }
+ ],
+ "novas": [],
+ "estatistica": {
+  "editais_lidos": 0,
+  "com_origem": 0,
+  "sem_origem": 0,
+  "rodadas": 0
+ }
+}

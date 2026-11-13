@@ -71,6 +71,7 @@ a{color:var(--accent)}
     <a href="#documentos" data-tab="documentos">Documentos</a>
     <a href="#comprovantes" data-tab="comprovantes">Comprovantes</a>
     <a href="#licitacoes" data-tab="licitacoes">Licitações<span class="badge" id="n-lic" style="margin-left:6px"></span></a>
+    <a href="#plataformas" data-tab="plataformas">Plataformas<span class="badge" id="n-plat" style="margin-left:6px"></span></a>
     <button class="tema" id="tema" type="button">Tema escuro</button>
     <button class="tema" id="sair" type="button" hidden title="Apaga a senha guardada neste aparelho">Sair</button>
   </nav>
@@ -93,6 +94,19 @@ a{color:var(--accent)}
     <div class="card"><h2>Radar de licitações pequenas · descartáveis</h2>
       <p class="meta" id="l-sobre"></p>
       <div id="l-lista" class="vazio">O radar ainda não rodou. A primeira lista aparece na próxima rodada diária.</div>
+    </div>
+  </section>
+  <section class="pane" id="pane-plataformas" hidden>
+    <div class="card"><h2>Apareceram no radar e esperam decisão</h2>
+      <p class="meta" id="p-sobre"></p>
+      <div id="p-novas" class="vazio">Nenhuma plataforma nova ainda. Cada rodada do radar confere em que sistema a disputa de cada edital acontece; o que não estiver no mapa aparece aqui.</div>
+    </div>
+    <div class="card"><h2>Mapa de plataformas</h2>
+      <div id="p-conhecidas" class="vazio">Mapa ainda não carregado.</div>
+    </div>
+    <div class="card"><h2>Compradores com regulamento próprio</h2>
+      <p class="meta">Estes não publicam no PNCP. Só se descobrem por contato ou busca dirigida, e cada um tem a porta de entrada própria.</p>
+      <div id="p-entes" class="vazio">Lista ainda não carregada.</div>
     </div>
   </section>
 </main>
@@ -188,7 +202,43 @@ if((R.itens||[]).length){
       +'<td>'+(i.link?'<a href="'+esc(i.link)+'" target="_blank" rel="noopener">PNCP ↗</a>':'')+'</td></tr>').join("")
     +'</tbody></table></div><p class="meta">Linha destacada entrou hoje. Quem decide participar é o Marcos; o Wagner prepara a proposta.</p>';
 }
-const TABS=["visao","documentos","comprovantes","licitacoes"];
+const P=D.plataformas||{conhecidas:[],entes:[],novas:[],estatistica:{}};
+const PE=P.estatistica||{};
+if(P.gerado||PE.rodadas){
+  $("#p-sobre").textContent="Cada edital que o radar acha diz, no registro do PNCP, em que sistema a disputa acontece. "
+    +(PE.rodadas||0)+" rodada(s), "+(PE.editais_lidos||0)+" edital(is) conferido(s), "
+    +(PE.com_origem||0)+" com sistema de origem identificado. Última: "+brData(PE.ultima_rodada||P.gerado)+".";
+}
+const novas=(P.novas||[]).filter(n=>n.decisao!=="ignorar");
+$("#n-plat").textContent=novas.filter(n=>n.decisao==="a avaliar").length||"";
+if(novas.length){
+  $("#p-novas").classList.remove("vazio");
+  $("#p-novas").innerHTML='<div class="tbl"><table><thead><tr><th>Plataforma</th><th>Vezes</th><th>Desde</th><th>Edital que revelou</th><th>Decisão</th></tr></thead><tbody>'
+    +novas.map(n=>'<tr><td><b>'+esc(n.nome||n.dominio)+'</b>'+(n.nome?'<div class="meta mono">'+esc(n.dominio)+'</div>':'')+'</td>'
+      +'<td class="mono">'+esc(String(n.vezes||1))+'</td><td class="mono">'+brData(n.primeira_vez)+'</td>'
+      +'<td class="meta">'+((n.exemplos||[]).slice(0,2).map(e=>esc([e.orgao,e.cidade,e.uf].filter(Boolean).join(" · "))
+        +(e.link_pncp?' <a href="'+esc(e.link_pncp)+'" target="_blank" rel="noopener">PNCP ↗</a>':'')).join("<br>")||"—")+'</td>'
+      +'<td>'+esc(n.decisao||"a avaliar")+'</td></tr>').join("")
+    +'</tbody></table></div><p class="meta">Quem decide cadastrar é o Marcos. Nenhum cadastro é feito automaticamente.</p>';
+}
+if((P.conhecidas||[]).length){
+  $("#p-conhecidas").classList.remove("vazio");
+  $("#p-conhecidas").innerHTML='<div class="tbl"><table><thead><tr><th>Plataforma</th><th>Tipo</th><th>Abrangência</th><th>Situação</th><th>Vista</th></tr></thead><tbody>'
+    +P.conhecidas.filter(c=>c.prioridade<9).map(c=>'<tr><td><b>'+esc(c.nome)+'</b><div class="meta mono">'+esc(c.dominio)+'</div>'
+      +(c.nota?'<div class="meta">'+esc(c.nota)+'</div>':'')+'</td>'
+      +'<td class="meta">'+esc(c.tipo||"")+'</td><td class="meta">'+esc(c.abrangencia||"")+'</td>'
+      +'<td>'+esc(c.situacao_comercio||"")+'</td>'
+      +'<td class="meta">'+(c.vezes?esc(String(c.vezes))+"x":"—")+'</td></tr>').join("")
+    +'</tbody></table></div><p class="meta">Situação é só da TRX Comércio. A TRX Diagnóstico tem cadastro, conta e e-mail próprios, em mapa separado.</p>';
+}
+if((P.entes||[]).length){
+  $("#p-entes").classList.remove("vazio");
+  $("#p-entes").innerHTML='<div class="tbl"><table><thead><tr><th>Comprador</th><th>Onde compra</th><th>Como entrar</th></tr></thead><tbody>'
+    +P.entes.map(e=>'<tr><td><b>'+esc(e.ente)+'</b>'+(e.nota?'<div class="meta">'+esc(e.nota)+'</div>':'')+'</td>'
+      +'<td class="meta">'+esc(e.onde||"")+'</td><td class="meta">'+esc(e.entrada||"")+'</td></tr>').join("")
+    +'</tbody></table></div>';
+}
+const TABS=["visao","documentos","comprovantes","licitacoes","plataformas"];
 function show(t){ if(!TABS.includes(t)) t="visao";
   TABS.forEach(x=>{ document.getElementById("pane-"+x).hidden=x!==t;
     const a=document.querySelector('nav.tabs a[data-tab="'+x+'"]'); if(x===t) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });

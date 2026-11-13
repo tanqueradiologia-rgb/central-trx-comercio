@@ -18,6 +18,21 @@ try:
                        "ufs": radar.get("ufs", []), "itens": radar.get("itens", [])}
 except Exception:
     dados["radar"] = {"gerado": "", "itens": []}
+
+# Mapa de plataformas de compras publicas (scripts/plataformas.py): o radar
+# retroalimenta este arquivo a cada rodada e a pagina mostra o que ja esta
+# mapeado e o que apareceu de novo e espera decisao do Marcos.
+try:
+    plat = json.load(open(os.path.join(RAIZ, "data", "plataformas.json"), encoding="utf-8"))
+    dados["plataformas"] = {
+        "gerado": plat.get("gerado", ""),
+        "conhecidas": plat.get("conhecidas", []),
+        "entes": plat.get("entes_regulamento_proprio", []),
+        "novas": plat.get("novas", []),
+        "estatistica": plat.get("estatistica", {}),
+    }
+except Exception:
+    dados["plataformas"] = {"gerado": "", "conhecidas": [], "entes": [], "novas": [], "estatistica": {}}
 js = "window.COMERCIO=" + json.dumps(dados, ensure_ascii=False, separators=(",", ":")) + ";\n"
 open(os.path.join(RAIZ, "site", "dados_comercio.js"), "w", encoding="utf-8").write(js)
 print(f"OK dados_comercio.js: {len(dados['documentos'])} documentos, gerado {dados['gerado']}")

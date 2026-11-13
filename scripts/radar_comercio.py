@@ -82,19 +82,25 @@ def buscar(termo):
 
 
 def relevante(it):
-    """(entra?, motivo) pela régua da primeira fase."""
+    """(entra?, motivo) pela régua da primeira fase.
+
+    O motivo começa com "uf:" ou "teto:" quando o OBJETO é do perfil e só a
+    geografia ou a escala reprovaram. Esses dois casos não entram no radar, mas
+    servem para descobrir plataformas (scripts/plataformas.py): o edital é de
+    material hospitalar e revela em que sistema a disputa acontece.
+    """
     texto = sem_acento((it.get("description") or "") + " " + (it.get("title") or ""))
-    uf = str(it.get("uf") or "").upper()
-    if UFS and uf not in UFS:
-        return False, f"fora das UFs ({uf or '?'})"
-    valor = it.get("valor_global")
-    if isinstance(valor, (int, float)) and valor > TETO:
-        return False, f"acima do teto (R$ {valor:,.0f})"
     if not any(p in texto for p in DENTRO):
         return False, "sem material do perfil no objeto"
     for p in FORA:
         if p in texto:
             return False, f"fora do perfil ({p.strip()})"
+    uf = str(it.get("uf") or "").upper()
+    if UFS and uf not in UFS:
+        return False, f"uf: fora das UFs ({uf or '?'})"
+    valor = it.get("valor_global")
+    if isinstance(valor, (int, float)) and valor > TETO:
+        return False, f"teto: acima do teto (R$ {valor:,.0f})"
     return True, ""
 
 
@@ -135,6 +141,9 @@ def main():
     por_id = {i["id"]: i for i in atual.get("itens", []) if i.get("id")}
 
     achados, descartes = {}, 0
+    # Itens de material hospitalar vistos nesta rodada, inclusive os que ficaram
+    # fora do radar só por UF ou por teto: alimentam a descoberta de plataformas.
+    perfil = {}
     for termo in TERMOS:
         try:
             lote = buscar(termo)
@@ -146,6 +155,8 @@ def main():
             if not pid or pid in achados:
                 continue
             ok, motivo = relevante(it)
+            if ok or motivo.startswith(("uf:", "teto:")):
+                perfil.setdefault(pid, it)
             if not ok:
                 descartes += 1
                 continue
@@ -170,6 +181,15 @@ def main():
     json.dump(saida, open(os.path.join(DATA, "radar.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     print(f"OK radar: {len(itens)} na lista ({novos} novos hoje), {descartes} descartados no filtro")
+
+    # Mesma rodada, segunda entrega: cada edital de material hospitalar diz em que
+    # plataforma a disputa acontece. Dominio novo vira linha para o Marcos decidir.
+    # Falha aqui nao derruba o radar: a lista de licitacoes e o produto principal.
+    try:
+        import plataformas
+        plataformas.retroalimentar(list(perfil.values()), hoje=hoje)
+    except Exception as e:
+        print(f"::warning::retroalimentacao de plataformas falhou: {e}")
 
 
 if __name__ == "__main__":

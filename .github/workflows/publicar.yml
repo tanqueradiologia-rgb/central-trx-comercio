@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install cryptography
-      - name: Radar de licitações pequenas de descartáveis (PNCP)
+      - name: Radar de licitações pequenas de descartáveis (PNCP) e mapa de plataformas
         id: radar
         continue-on-error: true
         timeout-minutes: 20
@@ -43,8 +43,8 @@ jobs:
         run: |
           git config user.name "radar-comercio"
           git config user.email "noreply@github.com"
-          git add data/radar.json
-          git diff --cached --quiet || git commit -m "dados: radar $(date -u -d '-3 hours' '+%d/%m %H:%M')"
+          git add data/radar.json data/plataformas.json
+          git diff --cached --quiet || git commit -m "dados: radar e plataformas $(date -u -d '-3 hours' '+%d/%m %H:%M')"
           git pull --rebase origin main || true
           git push origin main || echo "::warning::push do radar falhou; a página desta rodada ainda sai com os dados novos"
       - name: Avisar se o radar falhou
