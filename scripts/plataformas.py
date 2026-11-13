@@ -70,18 +70,45 @@ def dominio_de(url):
     return host
 
 
+# Enderecos diferentes da MESMA plataforma. Sem isto o mapa enche de linha nova
+# que nao e plataforma nova: o Compras.gov.br, por exemplo, serve as paginas pelo
+# SERPRO e apareceu 16 vezes na primeira rodada com outro dominio.
+ALIASES = {
+    "cnetmobile.estaleiro.serpro.gov.br": "compras.gov.br",
+    "estaleiro.serpro.gov.br": "compras.gov.br",
+    "comprasnet.gov.br": "compras.gov.br",
+    "gov.br/compras": "compras.gov.br",
+    "bb.com.br": "licitacoes-e.com.br",
+    "licitacoes-e.bb.com.br": "licitacoes-e.com.br",
+    "compras.rs.gov.br": "celic.rs.gov.br",
+    "bllcompras.com": "bll.org.br",
+    "bnccompras.com": "bnc.org.br",
+    "licitardigital.com.br": "licitar.digital",
+    "site.apoiocotacoes.com.br": "apoiocotacoes.com.br",
+    "srm.paradigmabs.com.br": "paradigmabs.com.br",
+}
+
+IPV4 = re.compile(r"^\d{1,3}(\.\d{1,3}){3}$")
+
+
 def raiz_de(host):
     """Agrupa subdominio no dominio registravel, preservando os .gov.br por
     inteiro, onde o subdominio e que identifica a plataforma (compras.mg.gov.br
-    e comprasnet.go.gov.br sao coisas diferentes)."""
-    if host.endswith(".gov.br") or host.endswith(".leg.br") or host.endswith(".jus.br"):
+    e comprasnet.go.gov.br sao coisas diferentes). Endereco IP fica inteiro:
+    cortar um IP em dois octetos produz lixo como "201.73"."""
+    if IPV4.match(host):
         return host
+    if host.endswith(".gov.br") or host.endswith(".leg.br") or host.endswith(".jus.br"):
+        return ALIASES.get(host, host)
     partes = host.split(".")
     if len(partes) >= 3 and partes[-2] in ("com", "org", "net", "gov") and partes[-1] == "br":
-        return ".".join(partes[-3:])
-    if len(partes) >= 2:
-        return ".".join(partes[-2:])
-    return host
+        raiz = ".".join(partes[-3:])
+    elif len(partes) >= 2:
+        raiz = ".".join(partes[-2:])
+    else:
+        raiz = host
+    # o alias pode valer para o host cheio (licitacoes-e.bb.com.br) ou para a raiz
+    return ALIASES.get(host, ALIASES.get(raiz, raiz))
 
 
 def _urls_no_documento(doc, achadas, profundidade=0):
@@ -141,10 +168,60 @@ def origem_de(detalhe, item):
 
 def carregar():
     try:
-        return json.load(open(ARQ, encoding="utf-8"))
+        mapa = json.load(open(ARQ, encoding="utf-8"))
     except Exception:
         return {"conhecidas": [], "entes_regulamento_proprio": [], "novas": [],
                 "estatistica": {"editais_lidos": 0, "com_origem": 0, "sem_origem": 0, "rodadas": 0}}
+    return migrar(mapa)
+
+
+def migrar(mapa):
+    """Reaplica ALIASES e a regra de dominio ao que ja esta gravado. Serve para
+    quando um alias novo revela que duas linhas eram a mesma plataforma: a linha
+    nova some e a vista vai para a conhecida, sem perder contagem."""
+    # funde as conhecidas que viraram alias de outra (ex.: bllcompras.com -> bll.org.br).
+    # O registro canonico (aquele cujo dominio ja e o alvo) vem primeiro, para que o
+    # nome e a nota que sobrevivem sejam os dele, nao os da linha alternativa.
+    canonicas = sorted(mapa.get("conhecidas", []),
+                       key=lambda c: ALIASES.get(c["dominio"], c["dominio"]) != c["dominio"])
+    conhecidas = {}
+    for c in canonicas:
+        alvo = ALIASES.get(c["dominio"], c["dominio"])
+        if alvo != c["dominio"] and alvo in conhecidas:
+            d = conhecidas[alvo]
+            d["vezes"] = int(d.get("vezes", 0)) + int(c.get("vezes", 0))
+            continue
+        c["dominio"] = alvo
+        if alvo in conhecidas:
+            d = conhecidas[alvo]
+            d["vezes"] = int(d.get("vezes", 0)) + int(c.get("vezes", 0))
+            continue
+        conhecidas[alvo] = c
+
+    novas = {}
+    for n in mapa.get("novas", []):
+        alvo = ALIASES.get(n["dominio"], n["dominio"])
+        # conserta dominio truncado de rodada antiga (IP cortado em dois octetos)
+        if re.match(r"^\d{1,3}\.\d{1,3}$", alvo):
+            url = ((n.get("exemplos") or [{}])[0]).get("url_origem", "")
+            host = dominio_de(url)
+            if host:
+                alvo = raiz_de(host)
+        if alvo in conhecidas:
+            c = conhecidas[alvo]
+            c["vezes"] = int(c.get("vezes", 0)) + int(n.get("vezes", 0))
+            c["visto_em"] = max(str(c.get("visto_em", "")), str(n.get("visto_em", "")))
+            continue
+        if alvo in novas:
+            a = novas[alvo]
+            a["vezes"] = int(a.get("vezes", 0)) + int(n.get("vezes", 0))
+            a["exemplos"] = (a.get("exemplos", []) + n.get("exemplos", []))[:5]
+            continue
+        n["dominio"] = alvo
+        novas[alvo] = n
+    mapa["conhecidas"] = list(conhecidas.values())
+    mapa["novas"] = list(novas.values())
+    return mapa
 
 
 def partes_do_id(item):

@@ -3,31 +3,33 @@
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
-   "dominio": "apoiocotacoes.com.br",
-   "nome": "APOIO Cotacoes (IGES-DF)",
-   "tipo": "regulamento proprio",
-   "abrangencia": "Hospital de Base, HRSM e UPAs do DF",
-   "prioridade": 1,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
    "dominio": "compras.gov.br",
    "nome": "Compras.gov.br / SICAF",
    "tipo": "federal",
    "abrangencia": "Uniao e entes que aderem",
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
-   "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH."
+   "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
+   "vezes": 16,
+   "visto_em": "2026-11-12"
   },
   {
-   "dominio": "portalfornecedor.isgh.org.br",
-   "nome": "Portal Fornecedor ISGH",
-   "tipo": "regulamento proprio",
-   "abrangencia": "8 hospitais e 6 UPAs no Ceara",
-   "prioridade": 1,
-   "situacao_comercio": "",
-   "nota": ""
+   "dominio": "gov.br",
+   "nome": "Portal gov.br (generico)",
+   "tipo": "federal",
+   "abrangencia": "Nacional",
+   "prioridade": 9,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Dominio guarda-chuva. Nao conta como plataforma por si."
+  },
+  {
+   "dominio": "pncp.gov.br",
+   "nome": "PNCP",
+   "tipo": "federal, so divulgacao",
+   "abrangencia": "Nacional",
+   "prioridade": 9,
+   "situacao_comercio": "em uso",
+   "nota": "Publicacao obrigatoria. Nao se disputa nele."
   },
   {
    "dominio": "portal.compras.df.gov.br",
@@ -39,14 +41,108 @@
    "nota": "Sede da empresa. GDF e SES-DF compram material todo mes."
   },
   {
-   "dominio": "ammlicita.org.br",
-   "nome": "AMM Licita",
-   "tipo": "privada de associacao",
-   "abrangencia": "Municipios de MG",
+   "dominio": "comprasnet.go.gov.br",
+   "nome": "ComprasNet GO",
+   "tipo": "estadual",
+   "abrangencia": "Goias",
    "prioridade": 2,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Vizinho do DF, frete curto."
+  },
+  {
+   "dominio": "bec.sp.gov.br",
+   "nome": "BEC-SP",
+   "tipo": "estadual",
+   "abrangencia": "Sao Paulo",
+   "prioridade": 3,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Exige cadastro previo no CAUFESP."
+  },
+  {
+   "dominio": "compras.mg.gov.br",
+   "nome": "Portal de Compras MG (CAGEF/SIAD)",
+   "tipo": "estadual",
+   "abrangencia": "Minas Gerais",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "compras.rj.gov.br",
+   "nome": "SIGA-RJ",
+   "tipo": "estadual",
+   "abrangencia": "Rio de Janeiro",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "celic.rs.gov.br",
+   "nome": "CELIC / Compras RS",
+   "tipo": "estadual",
+   "abrangencia": "Rio Grande do Sul",
+   "prioridade": 4,
    "situacao_comercio": "",
    "nota": "",
    "vezes": 1,
+   "visto_em": "2026-11-12"
+  },
+  {
+   "dominio": "compras.es.gov.br",
+   "nome": "Compras ES",
+   "tipo": "estadual",
+   "abrangencia": "Espirito Santo",
+   "prioridade": 5,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "comprasnet.ba.gov.br",
+   "nome": "Comprasnet BA",
+   "tipo": "estadual",
+   "abrangencia": "Bahia",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "comprasnet.se.gov.br",
+   "nome": "Comprasnet SE",
+   "tipo": "estadual",
+   "abrangencia": "Sergipe",
+   "prioridade": 5,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "licitacoes-e.com.br",
+   "nome": "Licitacoes-e (Banco do Brasil)",
+   "tipo": "privada de banco publico",
+   "abrangencia": "Nacional, forte na BA",
+   "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": "",
+   "vezes": 1,
+   "visto_em": "2026-11-12"
+  },
+  {
+   "dominio": "licitacoes.caixa.gov.br",
+   "nome": "Portal de Compras da Caixa",
+   "tipo": "federal",
+   "abrangencia": "Caixa",
+   "prioridade": 6,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "portaldecompraspublicas.com.br",
+   "nome": "Portal de Compras Publicas",
+   "tipo": "privada",
+   "abrangencia": "Municipios de MG, PA, SP e outros",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": "",
+   "vezes": 2,
    "visto_em": "2026-11-12"
   },
   {
@@ -56,36 +152,9 @@
    "abrangencia": "Municipios e consorcios",
    "prioridade": 2,
    "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "bllcompras.com",
-   "nome": "BLL Compras (dominio alternativo)",
-   "tipo": "privada",
-   "abrangencia": "Municipios e consorcios",
-   "prioridade": 2,
-   "situacao_comercio": "",
    "nota": "",
    "vezes": 2,
-   "visto_em": "2026-11-12"
-  },
-  {
-   "dominio": "bionexo.com",
-   "nome": "Bionexo / Publinexo",
-   "tipo": "regulamento proprio",
-   "abrangencia": "OSS: SECONCI-SP, IGH, INDSH e outras",
-   "prioridade": 2,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "comprasnet.go.gov.br",
-   "nome": "ComprasNet GO",
-   "tipo": "estadual",
-   "abrangencia": "Goias",
-   "prioridade": 2,
-   "situacao_comercio": "sem cadastro",
-   "nota": "Vizinho do DF, frete curto."
+   "visto_em": null
   },
   {
    "dominio": "licitanet.com.br",
@@ -105,26 +174,18 @@
    "abrangencia": "Municipios",
    "prioridade": 2,
    "situacao_comercio": "",
-   "nota": ""
+   "nota": "",
+   "vezes": 0
   },
   {
-   "dominio": "licitardigital.com.br",
-   "nome": "Licitar Digital (dominio alternativo)",
+   "dominio": "bnc.org.br",
+   "nome": "BNC - Bolsa Nacional de Compras",
    "tipo": "privada",
-   "abrangencia": "Municipios",
-   "prioridade": 2,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "portaldecompraspublicas.com.br",
-   "nome": "Portal de Compras Publicas",
-   "tipo": "privada",
-   "abrangencia": "Municipios de MG, PA, SP e outros",
-   "prioridade": 2,
+   "abrangencia": "Municipios de varios estados",
+   "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 2,
+   "vezes": 1,
    "visto_em": "2026-11-12"
   },
   {
@@ -137,31 +198,67 @@
    "nota": ""
   },
   {
-   "dominio": "bec.sp.gov.br",
-   "nome": "BEC-SP",
-   "tipo": "estadual",
-   "abrangencia": "Sao Paulo",
-   "prioridade": 3,
-   "situacao_comercio": "sem cadastro",
-   "nota": "Exige cadastro previo no CAUFESP."
-  },
-  {
-   "dominio": "bnccompras.com",
-   "nome": "BNC (dominio alternativo)",
-   "tipo": "privada",
-   "abrangencia": "Municipios",
-   "prioridade": 3,
+   "dominio": "ammlicita.org.br",
+   "nome": "AMM Licita",
+   "tipo": "privada de associacao",
+   "abrangencia": "Municipios de MG",
+   "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
    "vezes": 1,
    "visto_em": "2026-11-12"
   },
   {
-   "dominio": "bnc.org.br",
-   "nome": "BNC - Bolsa Nacional de Compras",
+   "dominio": "atende.net",
+   "nome": "atende.net (IPM)",
    "tipo": "privada",
-   "abrangencia": "Municipios de varios estados",
+   "abrangencia": "Prefeituras do Sul e Sudeste",
+   "prioridade": 4,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "portalfornecedor.isgh.org.br",
+   "nome": "Portal Fornecedor ISGH",
+   "tipo": "regulamento proprio",
+   "abrangencia": "8 hospitais e 6 UPAs no Ceara",
+   "prioridade": 1,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "apoiocotacoes.com.br",
+   "nome": "APOIO Cotacoes (IGES-DF)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Hospital de Base, HRSM e UPAs do DF",
+   "prioridade": 1,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "bionexo.com",
+   "nome": "Bionexo / Publinexo",
+   "tipo": "regulamento proprio",
+   "abrangencia": "OSS: SECONCI-SP, IGH, INDSH e outras",
+   "prioridade": 2,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "smarkets.com.br",
+   "nome": "Smarkets (IMED)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "6 unidades em GO e SP",
    "prioridade": 3,
+   "situacao_comercio": "",
+   "nota": ""
+  },
+  {
+   "dominio": "paradigmabs.com.br",
+   "nome": "Paradigma SRM 360 (CEJAM)",
+   "tipo": "regulamento proprio",
+   "abrangencia": "Unidades em SP",
+   "prioridade": 4,
    "situacao_comercio": "",
    "nota": ""
   },
@@ -170,24 +267,6 @@
    "nome": "Central de Compras Pro-Saude",
    "tipo": "regulamento proprio",
    "abrangencia": "Unidades em varios estados",
-   "prioridade": 3,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "licitacoes-e.com.br",
-   "nome": "Licitacoes-e (Banco do Brasil)",
-   "tipo": "privada de banco publico",
-   "abrangencia": "Nacional, forte na BA",
-   "prioridade": 3,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "compras.mg.gov.br",
-   "nome": "Portal de Compras MG (CAGEF/SIAD)",
-   "tipo": "estadual",
-   "abrangencia": "Minas Gerais",
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": ""
@@ -211,87 +290,6 @@
    "nota": ""
   },
   {
-   "dominio": "smarkets.com.br",
-   "nome": "Smarkets (IMED)",
-   "tipo": "regulamento proprio",
-   "abrangencia": "6 unidades em GO e SP",
-   "prioridade": 3,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "celic.rs.gov.br",
-   "nome": "CELIC / Compras RS",
-   "tipo": "estadual",
-   "abrangencia": "Rio Grande do Sul",
-   "prioridade": 4,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "comprasnet.ba.gov.br",
-   "nome": "Comprasnet BA",
-   "tipo": "estadual",
-   "abrangencia": "Bahia",
-   "prioridade": 4,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "paradigmabs.com.br",
-   "nome": "Paradigma SRM 360 (CEJAM)",
-   "tipo": "regulamento proprio",
-   "abrangencia": "Unidades em SP",
-   "prioridade": 4,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "compras.rj.gov.br",
-   "nome": "SIGA-RJ",
-   "tipo": "estadual",
-   "abrangencia": "Rio de Janeiro",
-   "prioridade": 4,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "atende.net",
-   "nome": "atende.net (IPM)",
-   "tipo": "privada",
-   "abrangencia": "Prefeituras do Sul e Sudeste",
-   "prioridade": 4,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "compras.es.gov.br",
-   "nome": "Compras ES",
-   "tipo": "estadual",
-   "abrangencia": "Espirito Santo",
-   "prioridade": 5,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "comprasnet.se.gov.br",
-   "nome": "Comprasnet SE",
-   "tipo": "estadual",
-   "abrangencia": "Sergipe",
-   "prioridade": 5,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
-   "dominio": "licitacoes.caixa.gov.br",
-   "nome": "Portal de Compras da Caixa",
-   "tipo": "federal",
-   "abrangencia": "Caixa",
-   "prioridade": 6,
-   "situacao_comercio": "",
-   "nota": ""
-  },
-  {
    "dominio": "conlicitacao.com.br",
    "nome": "ConLicitacao",
    "tipo": "agregador, nao disputa",
@@ -299,24 +297,6 @@
    "prioridade": 9,
    "situacao_comercio": "nao se aplica",
    "nota": "Busca e monitoramento, nao e plataforma de disputa."
-  },
-  {
-   "dominio": "pncp.gov.br",
-   "nome": "PNCP",
-   "tipo": "federal, so divulgacao",
-   "abrangencia": "Nacional",
-   "prioridade": 9,
-   "situacao_comercio": "em uso",
-   "nota": "Publicacao obrigatoria. Nao se disputa nele."
-  },
-  {
-   "dominio": "gov.br",
-   "nome": "Portal gov.br (generico)",
-   "tipo": "federal",
-   "abrangencia": "Nacional",
-   "prioridade": 9,
-   "situacao_comercio": "sem cadastro",
-   "nota": "Dominio guarda-chuva. Nao conta como plataforma por si."
   }
  ],
  "entes_regulamento_proprio": [
@@ -400,63 +380,6 @@
  ],
  "novas": [
   {
-   "dominio": "cnetmobile.estaleiro.serpro.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-12",
-   "vezes": 16,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº 2/2027",
-     "orgao": "BELO HORIZONTE CAMARA MUNICIPAL",
-     "cidade": "Belo Horizonte",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/17316563000196/2027/2",
-     "url_origem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=92630606000022027",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Aviso de Contratação Direta nº 33/2026",
-     "orgao": "SECRETARIA MUNICIPAL DE EDUCACAO",
-     "cidade": "São Paulo",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46392114000125/2026/1126",
-     "url_origem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=92520006000332026",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº 184/2026",
-     "orgao": "UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO",
-     "cidade": "Botucatu",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/48031918000124/2026/3353",
-     "url_origem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=10231305001842026",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº 21/2026",
-     "orgao": "MUNICIPIO DE DOM BASILIO",
-     "cidade": "Dom Basílio",
-     "uf": "BA",
-     "link_pncp": "https://pncp.gov.br/app/editais/13673314000105/2026/182",
-     "url_origem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=98350105000212026",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº 2656/2026",
-     "orgao": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
-     "cidade": "Campinas",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46068425000133/2026/2337",
-     "url_origem": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=45016105026562026",
-     "visto_em": "2026-11-12"
-    }
-   ]
-  },
-  {
    "dominio": "e-compras.am.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -487,7 +410,7 @@
    ]
   },
   {
-   "dominio": "201.73",
+   "dominio": "187.17.201.73",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
@@ -508,7 +431,7 @@
    ]
   },
   {
-   "dominio": "90.177",
+   "dominio": "189.112.90.177",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
@@ -545,48 +468,6 @@
      "uf": "SE",
      "link_pncp": "https://pncp.gov.br/app/editais/13128780004431/2026/113",
      "url_origem": "https://aracajucompras.se.gov.br/publico/WKF.aspx?code=SEPLOG-PE0087/2026&validation=56138",
-     "visto_em": "2026-11-12"
-    }
-   ]
-  },
-  {
-   "dominio": "bb.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-12",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 042.2026/2026",
-     "orgao": "FUNDACAO ESTATAL SAUDE DA FAMILIA - FESF",
-     "cidade": "Salvador",
-     "uf": "BA",
-     "link_pncp": "https://pncp.gov.br/app/editais/11020634000122/2026/64",
-     "url_origem": "https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1103677",
-     "visto_em": "2026-11-12"
-    }
-   ]
-  },
-  {
-   "dominio": "compras.rs.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-12",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº 1118/2026",
-     "orgao": "BRIGADA MILITAR DO ESTADO DO RIO GRANDE DO SUL",
-     "cidade": "Porto Alegre",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/89175541000164/2026/434",
-     "url_origem": "https://www.compras.rs.gov.br/editais/1118_2026/359170",
      "visto_em": "2026-11-12"
     }
    ]
