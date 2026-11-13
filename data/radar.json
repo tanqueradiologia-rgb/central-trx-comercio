@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-12T21:50",
+ "gerado": "2026-11-13T14:53",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -35,6 +35,20 @@
    "novo_em": "2026-11-12"
   },
   {
+   "id": "35840659000130-1-000096/2026",
+   "orgao": "UNIVERSIDADE FEDERAL DE JATAI",
+   "cidade": "Jataí",
+   "uf": "GO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 186/2026",
+   "objeto": "Aquisição de Materiais Hospitalares: aquisição de materiais destinados e insumo para Clinica Hospitalar Veterinária da UFJ. ",
+   "valor": null,
+   "prazo": "2026-11-19",
+   "link": "https://pncp.gov.br/app/editais/35840659000130/2026/96",
+   "visto_em": "2026-11-13T14:53",
+   "novo_em": "2026-11-13"
+  },
+  {
    "id": "01409580000138-1-001706/2026",
    "orgao": "ESTADO DE GOIAS",
    "cidade": "Goiânia",
@@ -49,6 +63,20 @@
    "novo_em": "2026-11-12"
   },
   {
+   "id": "04786328000136-1-000142/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE",
+   "cidade": "Valparaíso de Goiás",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 44651/2026",
+   "objeto": "PREGAO ELETRÔNICO N° 049/2026\nCONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE INSUMOS HOSPITALARES DESTINADOS AO CUMPRIMENTO DE DETERMINAÇÕES JUDICIAIS, DESTINADOS AS UNIDADES DE SAÚDE LIGADAS A SECRETARIA MUNICIPAL DE SAÚDE DE\nVALPARAISO DE GOIÁS/GO",
+   "valor": null,
+   "prazo": "2026-11-23",
+   "link": "https://pncp.gov.br/app/editais/04786328000136/2026/142",
+   "visto_em": "2026-11-13T14:53",
+   "novo_em": "2026-11-13"
+  },
+  {
    "id": "11409678000149-1-000024/2026",
    "orgao": "FUNDO MUNICIPAL DE SAUDE DE PIRENOPOLIS",
    "cidade": "Pirenópolis",
@@ -61,6 +89,34 @@
    "link": "https://pncp.gov.br/app/editais/11409678000149/2026/24",
    "visto_em": "2026-11-12T19:21",
    "novo_em": "2026-11-12"
+  },
+  {
+   "id": "00509018000113-1-002539/2026",
+   "orgao": "TRIBUNAL SUPERIOR ELEITORAL",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 121/2026",
+   "objeto": "Aquisição de materiais de consumo odontológicos, mediante fornecimento contínuo, pelo período de 30 (trinta) meses, prorrogáveis nos termos da lei, consoante especificações, exigências e prazos constantes do Termo de Referência.",
+   "valor": null,
+   "prazo": "2026-11-27",
+   "link": "https://pncp.gov.br/app/editais/00509018000113/2026/2539",
+   "visto_em": "2026-11-13T14:53",
+   "novo_em": "2026-11-13"
+  },
+  {
+   "id": "15126437000305-1-004612/2026",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 52/2026",
+   "objeto": "Aquisição de dispositivos médicos – insumos destinados à Unidade de Diagnóstico por Imagem, a fim de atender às necessidades do Hospital Universitário de Brasília (HUB).",
+   "valor": null,
+   "prazo": "2026-11-27",
+   "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4612",
+   "visto_em": "2026-11-13T14:53",
+   "novo_em": "2026-11-13"
   }
  ]
 }

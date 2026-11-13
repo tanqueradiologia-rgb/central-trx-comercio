@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-12T21:55",
+ "gerado": "2026-11-13T14:58",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 32,
-   "visto_em": "2026-11-12"
+   "vezes": 49,
+   "visto_em": "2026-11-13"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 4,
-   "visto_em": "2026-11-12"
+   "vezes": 8,
+   "visto_em": "2026-11-13"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 2,
-   "visto_em": "2026-11-12"
+   "vezes": 5,
+   "visto_em": "2026-11-13"
   },
   {
    "dominio": "licitar.digital",
@@ -109,8 +109,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 4,
-   "visto_em": "2026-11-12"
+   "vezes": 6,
+   "visto_em": "2026-11-13"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -428,6 +428,45 @@
    ]
   },
   {
+   "dominio": "189.112.90.177",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-12",
+   "visto_em": "2026-11-13",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 38/2026",
+     "orgao": "MUNICIPIO DE SALES OLIVEIRA",
+     "cidade": "Sales Oliveira",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46756029000107/2026/105",
+     "url_origem": "http://189.112.90.177:8079/Transparencia/",
+     "visto_em": "2026-11-12"
+    },
+    {
+     "edital": "Edital nº 38/2026",
+     "orgao": "MUNICIPIO DE SALES OLIVEIRA",
+     "cidade": "Sales Oliveira",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46756029000107/2026/105",
+     "url_origem": "http://189.112.90.177:8079/Transparencia/",
+     "visto_em": "2026-11-12"
+    },
+    {
+     "edital": "Edital nº 38/2026",
+     "orgao": "MUNICIPIO DE SALES OLIVEIRA",
+     "cidade": "Sales Oliveira",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46756029000107/2026/105",
+     "url_origem": "http://189.112.90.177:8079/Transparencia/",
+     "visto_em": "2026-11-13"
+    }
+   ]
+  },
+  {
    "dominio": "187.17.201.73",
    "nome": "",
    "tipo": "a classificar",
@@ -453,36 +492,6 @@
      "uf": "SP",
      "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/55",
      "url_origem": "http://187.17.201.73:8078/comprasedital/",
-     "visto_em": "2026-11-12"
-    }
-   ]
-  },
-  {
-   "dominio": "189.112.90.177",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-12",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Edital nº 38/2026",
-     "orgao": "MUNICIPIO DE SALES OLIVEIRA",
-     "cidade": "Sales Oliveira",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46756029000107/2026/105",
-     "url_origem": "http://189.112.90.177:8079/Transparencia/",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº 38/2026",
-     "orgao": "MUNICIPIO DE SALES OLIVEIRA",
-     "cidade": "Sales Oliveira",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46756029000107/2026/105",
-     "url_origem": "http://189.112.90.177:8079/Transparencia/",
      "visto_em": "2026-11-12"
     }
    ]
@@ -546,16 +555,58 @@
      "visto_em": "2026-11-12"
     }
    ]
+  },
+  {
+   "dominio": "pregaobanrisul.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-13",
+   "visto_em": "2026-11-13",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 0030/2026",
+     "orgao": "MUNICIPIO DE CANDIDO GODOI",
+     "cidade": "Cândido Godói",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612842000182/2026/131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
+     "visto_em": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "dominio": "www1.compras.mg.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-13",
+   "visto_em": "2026-11-13",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Aviso de Contratação Direta nº 805/2026",
+     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+     "cidade": "Belo Horizonte",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/16695025000197/2026/1284",
+     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/805/1255302",
+     "visto_em": "2026-11-13"
+    }
+   ]
   }
  ],
  "estatistica": {
-  "editais_lidos": 80,
-  "com_origem": 62,
-  "sem_origem": 18,
-  "rodadas": 2,
-  "ultima_rodada": "2026-11-12T21:55",
+  "editais_lidos": 120,
+  "com_origem": 91,
+  "sem_origem": 29,
+  "rodadas": 3,
+  "ultima_rodada": "2026-11-13T14:58",
   "campos_usados": {
-   "link_sistema_origem": 31
+   "link_sistema_origem": 29
   }
  }
 }
