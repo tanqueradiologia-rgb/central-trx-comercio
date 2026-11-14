@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-13T14:58",
+ "gerado": "2026-11-14T13:43",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 49,
-   "visto_em": "2026-11-13"
+   "vezes": 70,
+   "visto_em": "2026-11-14"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 8,
-   "visto_em": "2026-11-13"
+   "vezes": 10,
+   "visto_em": "2026-11-14"
   },
   {
    "dominio": "bionexo.com",
@@ -109,8 +109,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 6,
-   "visto_em": "2026-11-13"
+   "vezes": 7,
+   "visto_em": "2026-11-14"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -158,8 +158,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 2,
-   "visto_em": "2026-11-12"
+   "vezes": 5,
+   "visto_em": "2026-11-14"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -428,6 +428,45 @@
    ]
   },
   {
+   "dominio": "187.17.201.73",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-12",
+   "visto_em": "2026-11-14",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 12/2026",
+     "orgao": "MUNICIPIO DE QUEIROZ",
+     "cidade": "Queiroz",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/55",
+     "url_origem": "http://187.17.201.73:8078/comprasedital/",
+     "visto_em": "2026-11-12"
+    },
+    {
+     "edital": "Edital nº 12/2026",
+     "orgao": "MUNICIPIO DE QUEIROZ",
+     "cidade": "Queiroz",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/55",
+     "url_origem": "http://187.17.201.73:8078/comprasedital/",
+     "visto_em": "2026-11-12"
+    },
+    {
+     "edital": "Edital nº 8/2026",
+     "orgao": "MUNICIPIO DE QUEIROZ",
+     "cidade": "Queiroz",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/56",
+     "url_origem": "http://187.17.201.73:8078/comprasedital/",
+     "visto_em": "2026-11-14"
+    }
+   ]
+  },
+  {
    "dominio": "189.112.90.177",
    "nome": "",
    "tipo": "a classificar",
@@ -467,32 +506,41 @@
    ]
   },
   {
-   "dominio": "187.17.201.73",
+   "dominio": "www1.compras.mg.gov.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-12",
-   "vezes": 2,
+   "primeira_vez": "2026-11-13",
+   "visto_em": "2026-11-14",
+   "vezes": 3,
    "exemplos": [
     {
-     "edital": "Edital nº 12/2026",
-     "orgao": "MUNICIPIO DE QUEIROZ",
-     "cidade": "Queiroz",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/55",
-     "url_origem": "http://187.17.201.73:8078/comprasedital/",
-     "visto_em": "2026-11-12"
+     "edital": "Aviso de Contratação Direta nº 805/2026",
+     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+     "cidade": "Belo Horizonte",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/16695025000197/2026/1284",
+     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/805/1255302",
+     "visto_em": "2026-11-13"
     },
     {
-     "edital": "Edital nº 12/2026",
-     "orgao": "MUNICIPIO DE QUEIROZ",
-     "cidade": "Queiroz",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/55",
-     "url_origem": "http://187.17.201.73:8078/comprasedital/",
-     "visto_em": "2026-11-12"
+     "edital": "Edital nº 297/2026",
+     "orgao": "FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS",
+     "cidade": "Belo Horizonte",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/19843929000100/2026/825",
+     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/297/500003",
+     "visto_em": "2026-11-14"
+    },
+    {
+     "edital": "Aviso de Contratação Direta nº 805/2026",
+     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+     "cidade": "Belo Horizonte",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/16695025000197/2026/1284",
+     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/805/1255302",
+     "visto_em": "2026-11-14"
     }
    ]
   },
@@ -557,6 +605,27 @@
    ]
   },
   {
+   "dominio": "comprasgovernamentais.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-14",
+   "visto_em": "2026-11-14",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 202630926/2026",
+     "orgao": "ESTADO DO CEARA",
+     "cidade": "Fortaleza",
+     "uf": "CE",
+     "link_pncp": "https://pncp.gov.br/app/editais/07954480000179/2026/27401",
+     "url_origem": "http://comprasgovernamentais.gov.br/",
+     "visto_em": "2026-11-14"
+    }
+   ]
+  },
+  {
    "dominio": "pregaobanrisul.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -576,37 +645,16 @@
      "visto_em": "2026-11-13"
     }
    ]
-  },
-  {
-   "dominio": "www1.compras.mg.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-13",
-   "visto_em": "2026-11-13",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº 805/2026",
-     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
-     "cidade": "Belo Horizonte",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/16695025000197/2026/1284",
-     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/805/1255302",
-     "visto_em": "2026-11-13"
-    }
-   ]
   }
  ],
  "estatistica": {
-  "editais_lidos": 120,
-  "com_origem": 91,
-  "sem_origem": 29,
-  "rodadas": 3,
-  "ultima_rodada": "2026-11-13T14:58",
+  "editais_lidos": 160,
+  "com_origem": 122,
+  "sem_origem": 38,
+  "rodadas": 4,
+  "ultima_rodada": "2026-11-14T13:43",
   "campos_usados": {
-   "link_sistema_origem": 29
+   "link_sistema_origem": 31
   }
  }
 }
