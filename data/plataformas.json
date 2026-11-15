@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-14T13:43",
+ "gerado": "2026-11-15T10:09",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 71,
-   "visto_em": "2026-11-14"
+   "vezes": 93,
+   "visto_em": "2026-11-15"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 10,
-   "visto_em": "2026-11-14"
+   "vezes": 12,
+   "visto_em": "2026-11-15"
   },
   {
    "dominio": "bionexo.com",
@@ -102,6 +102,17 @@
    "vezes": 0
   },
   {
+   "dominio": "www1.compras.mg.gov.br",
+   "nome": "Portal de Compras MG (CAGEF)",
+   "tipo": "estadual",
+   "abrangencia": "Estado de MG, inclusive FHEMIG (rede hospitalar) e PMMG",
+   "prioridade": 2,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
+   "vezes": 5,
+   "visto_em": "2026-11-15"
+  },
+  {
    "dominio": "portaldecompraspublicas.com.br",
    "nome": "Portal de Compras Publicas",
    "tipo": "privada",
@@ -109,8 +120,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 7,
-   "visto_em": "2026-11-14"
+   "vezes": 8,
+   "visto_em": "2026-11-15"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -158,8 +169,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 5,
-   "visto_em": "2026-11-14"
+   "vezes": 8,
+   "visto_em": "2026-11-15"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -196,6 +207,17 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": ""
+  },
+  {
+   "dominio": "e-compras.am.gov.br",
+   "nome": "e-Compras AM (CSC/AM)",
+   "tipo": "estadual",
+   "abrangencia": "Governo do Amazonas (Centro de Servicos Compartilhados, Manaus)",
+   "prioridade": 3,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. Lotes estaduais grandes podem pagar o frete aereo DF-Manaus; disputar caso a caso.",
+   "vezes": 4,
+   "visto_em": "2026-11-12"
   },
   {
    "dominio": "celic.rs.gov.br",
@@ -297,28 +319,6 @@
    "prioridade": 9,
    "situacao_comercio": "sem cadastro",
    "nota": "Dominio guarda-chuva. Nao conta como plataforma por si."
-  },
-  {
-   "dominio": "e-compras.am.gov.br",
-   "nome": "e-Compras AM (CSC/AM)",
-   "tipo": "estadual",
-   "abrangencia": "Governo do Amazonas (Centro de Servicos Compartilhados, Manaus)",
-   "prioridade": 3,
-   "situacao_comercio": "sem cadastro",
-   "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. Lotes estaduais grandes podem pagar o frete aereo DF-Manaus; disputar caso a caso.",
-   "vezes": 4,
-   "visto_em": "2026-11-12"
-  },
-  {
-   "dominio": "www1.compras.mg.gov.br",
-   "nome": "Portal de Compras MG (CAGEF)",
-   "tipo": "estadual",
-   "abrangencia": "Estado de MG, inclusive FHEMIG (rede hospitalar) e PMMG",
-   "prioridade": 2,
-   "situacao_comercio": "sem cadastro",
-   "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
-   "vezes": 3,
-   "visto_em": "2026-11-14"
   }
  ],
  "entes_regulamento_proprio": [
@@ -408,8 +408,8 @@
    "situacao_comercio": "sem cadastro",
    "decisao": "ignorar",
    "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-14",
-   "vezes": 3,
+   "visto_em": "2026-11-15",
+   "vezes": 4,
    "exemplos": [
     {
      "edital": "Edital nº 12/2026",
@@ -437,6 +437,15 @@
      "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/56",
      "url_origem": "http://187.17.201.73:8078/comprasedital/",
      "visto_em": "2026-11-14"
+    },
+    {
+     "edital": "Edital nº 8/2026",
+     "orgao": "MUNICIPIO DE QUEIROZ",
+     "cidade": "Queiroz",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/56",
+     "url_origem": "http://187.17.201.73:8078/comprasedital/",
+     "visto_em": "2026-11-15"
     }
    ],
    "nota": "Prefeitura de Queiroz/SP (~3 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
@@ -567,11 +576,11 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 160,
-  "com_origem": 122,
-  "sem_origem": 38,
-  "rodadas": 4,
-  "ultima_rodada": "2026-11-14T13:43",
+  "editais_lidos": 200,
+  "com_origem": 153,
+  "sem_origem": 47,
+  "rodadas": 5,
+  "ultima_rodada": "2026-11-15T10:09",
   "campos_usados": {
    "link_sistema_origem": 31
   }
