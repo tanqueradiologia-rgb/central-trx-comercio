@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-15T10:09",
+ "gerado": "2026-11-15T14:21",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,7 +19,7 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 93,
+   "vezes": 115,
    "visto_em": "2026-11-15"
   },
   {
@@ -59,7 +59,7 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 12,
+   "vezes": 14,
    "visto_em": "2026-11-15"
   },
   {
@@ -109,7 +109,7 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
-   "vezes": 5,
+   "vezes": 7,
    "visto_em": "2026-11-15"
   },
   {
@@ -120,7 +120,7 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 8,
+   "vezes": 9,
    "visto_em": "2026-11-15"
   },
   {
@@ -169,7 +169,7 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 8,
+   "vezes": 11,
    "visto_em": "2026-11-15"
   },
   {
@@ -409,7 +409,7 @@
    "decisao": "ignorar",
    "primeira_vez": "2026-11-12",
    "visto_em": "2026-11-15",
-   "vezes": 4,
+   "vezes": 5,
    "exemplos": [
     {
      "edital": "Edital nº 12/2026",
@@ -437,6 +437,15 @@
      "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/56",
      "url_origem": "http://187.17.201.73:8078/comprasedital/",
      "visto_em": "2026-11-14"
+    },
+    {
+     "edital": "Edital nº 8/2026",
+     "orgao": "MUNICIPIO DE QUEIROZ",
+     "cidade": "Queiroz",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/44568749000105/2026/56",
+     "url_origem": "http://187.17.201.73:8078/comprasedital/",
+     "visto_em": "2026-11-15"
     },
     {
      "edital": "Edital nº 8/2026",
@@ -576,11 +585,11 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 200,
-  "com_origem": 153,
-  "sem_origem": 47,
-  "rodadas": 5,
-  "ultima_rodada": "2026-11-15T10:09",
+  "editais_lidos": 240,
+  "com_origem": 184,
+  "sem_origem": 56,
+  "rodadas": 6,
+  "ultima_rodada": "2026-11-15T14:21",
   "campos_usados": {
    "link_sistema_origem": 31
   }
