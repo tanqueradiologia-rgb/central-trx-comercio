@@ -19,7 +19,7 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 70,
+   "vezes": 71,
    "visto_em": "2026-11-14"
   },
   {
@@ -297,6 +297,28 @@
    "prioridade": 9,
    "situacao_comercio": "sem cadastro",
    "nota": "Dominio guarda-chuva. Nao conta como plataforma por si."
+  },
+  {
+   "dominio": "e-compras.am.gov.br",
+   "nome": "e-Compras AM (CSC/AM)",
+   "tipo": "estadual",
+   "abrangencia": "Governo do Amazonas (Centro de Servicos Compartilhados, Manaus)",
+   "prioridade": 3,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. Lotes estaduais grandes podem pagar o frete aereo DF-Manaus; disputar caso a caso.",
+   "vezes": 4,
+   "visto_em": "2026-11-12"
+  },
+  {
+   "dominio": "www1.compras.mg.gov.br",
+   "nome": "Portal de Compras MG (CAGEF)",
+   "tipo": "estadual",
+   "abrangencia": "Estado de MG, inclusive FHEMIG (rede hospitalar) e PMMG",
+   "prioridade": 2,
+   "situacao_comercio": "sem cadastro",
+   "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
+   "vezes": 3,
+   "visto_em": "2026-11-14"
   }
  ],
  "entes_regulamento_proprio": [
@@ -380,59 +402,11 @@
  ],
  "novas": [
   {
-   "dominio": "e-compras.am.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-12",
-   "vezes": 4,
-   "exemplos": [
-    {
-     "edital": "Edital nº PE 492/2026",
-     "orgao": "CENTRO DE SERVICOS COMPARTILHADOS",
-     "cidade": "Manaus",
-     "uf": "AM",
-     "link_pncp": "https://pncp.gov.br/app/editais/03930106000182/2026/275",
-     "url_origem": "https://www.e-compras.am.gov.br/publico/licitacoes_detalhes.asp?ident=257159",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº PE 490/2026",
-     "orgao": "CENTRO DE SERVICOS COMPARTILHADOS",
-     "cidade": "Manaus",
-     "uf": "AM",
-     "link_pncp": "https://pncp.gov.br/app/editais/03930106000182/2026/274",
-     "url_origem": "https://www.e-compras.am.gov.br/publico/licitacoes_detalhes.asp?ident=257158",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº PE 492/2026",
-     "orgao": "CENTRO DE SERVICOS COMPARTILHADOS",
-     "cidade": "Manaus",
-     "uf": "AM",
-     "link_pncp": "https://pncp.gov.br/app/editais/03930106000182/2026/275",
-     "url_origem": "https://www.e-compras.am.gov.br/publico/licitacoes_detalhes.asp?ident=257159",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Edital nº PE 490/2026",
-     "orgao": "CENTRO DE SERVICOS COMPARTILHADOS",
-     "cidade": "Manaus",
-     "uf": "AM",
-     "link_pncp": "https://pncp.gov.br/app/editais/03930106000182/2026/274",
-     "url_origem": "https://www.e-compras.am.gov.br/publico/licitacoes_detalhes.asp?ident=257158",
-     "visto_em": "2026-11-12"
-    }
-   ]
-  },
-  {
    "dominio": "187.17.201.73",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
+   "decisao": "ignorar",
    "primeira_vez": "2026-11-12",
    "visto_em": "2026-11-14",
    "vezes": 3,
@@ -464,14 +438,15 @@
      "url_origem": "http://187.17.201.73:8078/comprasedital/",
      "visto_em": "2026-11-14"
     }
-   ]
+   ],
+   "nota": "Prefeitura de Queiroz/SP (~3 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
    "dominio": "189.112.90.177",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
+   "decisao": "ignorar",
    "primeira_vez": "2026-11-12",
    "visto_em": "2026-11-13",
    "vezes": 3,
@@ -503,53 +478,15 @@
      "url_origem": "http://189.112.90.177:8079/Transparencia/",
      "visto_em": "2026-11-13"
     }
-   ]
-  },
-  {
-   "dominio": "www1.compras.mg.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-13",
-   "visto_em": "2026-11-14",
-   "vezes": 3,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº 805/2026",
-     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
-     "cidade": "Belo Horizonte",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/16695025000197/2026/1284",
-     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/805/1255302",
-     "visto_em": "2026-11-13"
-    },
-    {
-     "edital": "Edital nº 297/2026",
-     "orgao": "FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS",
-     "cidade": "Belo Horizonte",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/19843929000100/2026/825",
-     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/297/500003",
-     "visto_em": "2026-11-14"
-    },
-    {
-     "edital": "Aviso de Contratação Direta nº 805/2026",
-     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
-     "cidade": "Belo Horizonte",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/16695025000197/2026/1284",
-     "url_origem": "https://www1.compras.mg.gov.br/n/procedimentolei14133/consulta/eletronico/visualizar/2026/805/1255302",
-     "visto_em": "2026-11-14"
-    }
-   ]
+   ],
+   "nota": "Prefeitura de Sales Oliveira/SP (~11 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
    "dominio": "aracajucompras.se.gov.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
+   "decisao": "ignorar",
    "primeira_vez": "2026-11-12",
    "visto_em": "2026-11-12",
    "vezes": 2,
@@ -572,14 +509,15 @@
      "url_origem": "https://aracajucompras.se.gov.br/publico/WKF.aspx?code=SEPLOG-PE0087/2026&validation=56138",
      "visto_em": "2026-11-12"
     }
-   ]
+   ],
+   "nota": "Aracaju/SE, ~1.650 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
    "dominio": "portaldecompras.recife.pe.gov.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
+   "decisao": "ignorar",
    "primeira_vez": "2026-11-12",
    "visto_em": "2026-11-12",
    "vezes": 2,
@@ -602,35 +540,15 @@
      "url_origem": "http://portaldecompras.recife.pe.gov.br/",
      "visto_em": "2026-11-12"
     }
-   ]
-  },
-  {
-   "dominio": "comprasgovernamentais.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-14",
-   "visto_em": "2026-11-14",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 202630926/2026",
-     "orgao": "ESTADO DO CEARA",
-     "cidade": "Fortaleza",
-     "uf": "CE",
-     "link_pncp": "https://pncp.gov.br/app/editais/07954480000179/2026/27401",
-     "url_origem": "http://comprasgovernamentais.gov.br/",
-     "visto_em": "2026-11-14"
-    }
-   ]
+   ],
+   "nota": "Recife/PE, ~2.100 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
    "dominio": "pregaobanrisul.com.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
+   "decisao": "ignorar",
    "primeira_vez": "2026-11-13",
    "visto_em": "2026-11-13",
    "vezes": 1,
@@ -644,7 +562,8 @@
      "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
      "visto_em": "2026-11-13"
     }
-   ]
+   ],
+   "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
   }
  ],
  "estatistica": {

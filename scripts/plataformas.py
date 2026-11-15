@@ -78,6 +78,7 @@ ALIASES = {
     "estaleiro.serpro.gov.br": "compras.gov.br",
     "comprasnet.gov.br": "compras.gov.br",
     "gov.br/compras": "compras.gov.br",
+    "comprasgovernamentais.gov.br": "compras.gov.br",
     "bb.com.br": "licitacoes-e.com.br",
     "licitacoes-e.bb.com.br": "licitacoes-e.com.br",
     "compras.rs.gov.br": "celic.rs.gov.br",
