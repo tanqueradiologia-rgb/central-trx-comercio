@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-16T17:39",
+ "gerado": "2026-11-17T16:19",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 125,
-   "visto_em": "2026-11-16"
+   "vezes": 132,
+   "visto_em": "2026-11-17"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 18,
-   "visto_em": "2026-11-16"
+   "vezes": 22,
+   "visto_em": "2026-11-17"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 7,
-   "visto_em": "2026-11-16"
+   "vezes": 8,
+   "visto_em": "2026-11-17"
   },
   {
    "dominio": "licitar.digital",
@@ -99,8 +99,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 1,
-   "visto_em": "2026-11-16"
+   "vezes": 2,
+   "visto_em": "2026-11-17"
   },
   {
    "dominio": "www1.compras.mg.gov.br",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 10,
-   "visto_em": "2026-11-16"
+   "vezes": 14,
+   "visto_em": "2026-11-17"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 2,
-   "visto_em": "2026-11-12"
+   "vezes": 6,
+   "visto_em": "2026-11-17"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -461,6 +461,64 @@
    "nota": "Prefeitura de Queiroz/SP (~3 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "portaldecompras.recife.pe.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "ignorar",
+   "primeira_vez": "2026-11-12",
+   "visto_em": "2026-11-17",
+   "vezes": 5,
+   "exemplos": [
+    {
+     "edital": "Edital nº GC-SEPLAG-002-PL 0032/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Recife",
+     "uf": "PE",
+     "link_pncp": "https://pncp.gov.br/app/editais/41090291000133/2026/230",
+     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
+     "visto_em": "2026-11-12"
+    },
+    {
+     "edital": "Edital nº GC-SEPLAG-002-PL 0032/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Recife",
+     "uf": "PE",
+     "link_pncp": "https://pncp.gov.br/app/editais/41090291000133/2026/230",
+     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
+     "visto_em": "2026-11-12"
+    },
+    {
+     "edital": "Aviso de Contratação Direta nº 5010.0222/2026",
+     "orgao": "AUTARQUIA DE MANUTENCAO E LIMPEZA URBANA - EMLURB",
+     "cidade": "Recife",
+     "uf": "PE",
+     "link_pncp": "https://pncp.gov.br/app/editais/11497013000134/2026/122",
+     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
+     "visto_em": "2026-11-16"
+    },
+    {
+     "edital": "Edital nº GC-SEPLAG-002-PL 0032/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Recife",
+     "uf": "PE",
+     "link_pncp": "https://pncp.gov.br/app/editais/41090291000133/2026/230",
+     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
+     "visto_em": "2026-11-16"
+    },
+    {
+     "edital": "Aviso de Contratação Direta nº 5010.0222/2026",
+     "orgao": "AUTARQUIA DE MANUTENCAO E LIMPEZA URBANA - EMLURB",
+     "cidade": "Recife",
+     "uf": "PE",
+     "link_pncp": "https://pncp.gov.br/app/editais/11497013000134/2026/122",
+     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
+     "visto_em": "2026-11-17"
+    }
+   ],
+   "nota": "Recife/PE, ~2.100 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
+  },
+  {
    "dominio": "189.112.90.177",
    "nome": "",
    "tipo": "a classificar",
@@ -510,53 +568,44 @@
    "nota": "Prefeitura de Sales Oliveira/SP (~11 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
-   "dominio": "portaldecompras.recife.pe.gov.br",
+   "dominio": "pregaobanrisul.com.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "ignorar",
-   "primeira_vez": "2026-11-12",
-   "visto_em": "2026-11-16",
-   "vezes": 4,
+   "primeira_vez": "2026-11-13",
+   "visto_em": "2026-11-17",
+   "vezes": 3,
    "exemplos": [
     {
-     "edital": "Edital nº GC-SEPLAG-002-PL 0032/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Recife",
-     "uf": "PE",
-     "link_pncp": "https://pncp.gov.br/app/editais/41090291000133/2026/230",
-     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
-     "visto_em": "2026-11-12"
+     "edital": "Edital nº 0030/2026",
+     "orgao": "MUNICIPIO DE CANDIDO GODOI",
+     "cidade": "Cândido Godói",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612842000182/2026/131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
+     "visto_em": "2026-11-13"
     },
     {
-     "edital": "Edital nº GC-SEPLAG-002-PL 0032/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Recife",
-     "uf": "PE",
-     "link_pncp": "https://pncp.gov.br/app/editais/41090291000133/2026/230",
-     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
-     "visto_em": "2026-11-12"
-    },
-    {
-     "edital": "Aviso de Contratação Direta nº 5010.0222/2026",
-     "orgao": "AUTARQUIA DE MANUTENCAO E LIMPEZA URBANA - EMLURB",
-     "cidade": "Recife",
-     "uf": "PE",
-     "link_pncp": "https://pncp.gov.br/app/editais/11497013000134/2026/122",
-     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
+     "edital": "Edital nº 0277/2026",
+     "orgao": "MUNICIPIO DE CANOAS",
+     "cidade": "Canoas",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/88577416000118/2026/232",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0277_2026/359419",
      "visto_em": "2026-11-16"
     },
     {
-     "edital": "Edital nº GC-SEPLAG-002-PL 0032/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Recife",
-     "uf": "PE",
-     "link_pncp": "https://pncp.gov.br/app/editais/41090291000133/2026/230",
-     "url_origem": "http://portaldecompras.recife.pe.gov.br/",
-     "visto_em": "2026-11-16"
+     "edital": "Edital nº 0074/2026",
+     "orgao": "MUNICIPIO DE INDEPENDENCIA",
+     "cidade": "Independência",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
+     "visto_em": "2026-11-17"
     }
    ],
-   "nota": "Recife/PE, ~2.100 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
+   "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
    "dominio": "aracajucompras.se.gov.br",
@@ -590,45 +639,14 @@
    "nota": "Aracaju/SE, ~1.650 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
-   "dominio": "pregaobanrisul.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "ignorar",
-   "primeira_vez": "2026-11-13",
-   "visto_em": "2026-11-16",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Edital nº 0030/2026",
-     "orgao": "MUNICIPIO DE CANDIDO GODOI",
-     "cidade": "Cândido Godói",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/87612842000182/2026/131",
-     "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
-     "visto_em": "2026-11-13"
-    },
-    {
-     "edital": "Edital nº 0277/2026",
-     "orgao": "MUNICIPIO DE CANOAS",
-     "cidade": "Canoas",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/88577416000118/2026/232",
-     "url_origem": "https://pregaobanrisul.com.br/editais/0277_2026/359419",
-     "visto_em": "2026-11-16"
-    }
-   ],
-   "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
-  },
-  {
    "dominio": "governotransparente.com.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
    "primeira_vez": "2026-11-16",
-   "visto_em": "2026-11-16",
-   "vezes": 1,
+   "visto_em": "2026-11-17",
+   "vezes": 2,
    "exemplos": [
     {
      "edital": "Edital nº 322/2026",
@@ -638,6 +656,15 @@
      "link_pncp": "https://pncp.gov.br/app/editais/83334672000160/2026/80",
      "url_origem": "https://www.governotransparente.com.br/transparencia/45929488/consultarlicitacao?datainfo=MTIwMjMxMDIzMTkyNFBQUA==&clean=false",
      "visto_em": "2026-11-16"
+    },
+    {
+     "edital": "Edital nº 322/2026",
+     "orgao": "MUNICIPIO DE ULIANOPOLIS",
+     "cidade": "Ulianópolis",
+     "uf": "PA",
+     "link_pncp": "https://pncp.gov.br/app/editais/83334672000160/2026/80",
+     "url_origem": "https://www.governotransparente.com.br/transparencia/45929488/consultarlicitacao?datainfo=MTIwMjMxMDIzMTkyNFBQUA==&clean=false",
+     "visto_em": "2026-11-17"
     }
    ]
   },
@@ -648,8 +675,8 @@
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
    "primeira_vez": "2026-11-16",
-   "visto_em": "2026-11-16",
-   "vezes": 1,
+   "visto_em": "2026-11-17",
+   "vezes": 2,
    "exemplos": [
     {
      "edital": "Edital nº 100/2026",
@@ -659,18 +686,79 @@
      "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
      "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
      "visto_em": "2026-11-16"
+    },
+    {
+     "edital": "Edital nº 100/2026",
+     "orgao": "MUNICIPIO DE JACUTINGA",
+     "cidade": "Jacutinga",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
+     "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
+     "visto_em": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "dominio": "megasofttransparencia.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-17",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "dominio": "cabralia.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-17",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 29/2026",
+     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
+     "cidade": "Cabrália Paulista",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
+     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
+     "visto_em": "2026-11-17"
     }
    ]
   }
  ],
  "estatistica": {
-  "editais_lidos": 280,
-  "com_origem": 209,
-  "sem_origem": 71,
-  "rodadas": 7,
-  "ultima_rodada": "2026-11-16T17:39",
+  "editais_lidos": 320,
+  "com_origem": 237,
+  "sem_origem": 83,
+  "rodadas": 8,
+  "ultima_rodada": "2026-11-17T16:19",
   "campos_usados": {
-   "link_sistema_origem": 25
+   "link_sistema_origem": 26,
+   "link_processo_eletronico (varredura)": 2
   }
  }
 }

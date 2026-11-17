@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-16T17:34",
+ "gerado": "2026-11-17T16:14",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -77,6 +77,20 @@
    "novo_em": "2026-11-13"
   },
   {
+   "id": "11479852000120-1-000035/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE",
+   "cidade": "Flores de Goiás",
+   "uf": "GO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+   "objeto": "ABERTURA DE DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO DE MATERIAL HOSPITALAR.",
+   "valor": null,
+   "prazo": "2026-11-23",
+   "link": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+   "visto_em": "2026-11-17T16:14",
+   "novo_em": "2026-11-17"
+  },
+  {
    "id": "11409678000149-1-000024/2026",
    "orgao": "FUNDO MUNICIPAL DE SAUDE DE PIRENOPOLIS",
    "cidade": "Pirenópolis",
@@ -117,6 +131,62 @@
    "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4612",
    "visto_em": "2026-11-13T14:53",
    "novo_em": "2026-11-13"
+  },
+  {
+   "id": "02204196000161-1-000515/2026",
+   "orgao": "MUNICIPIO DE ITUMBIARA",
+   "cidade": "Itumbiara",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 17/2026",
+   "objeto": "REGISTRO DE PREÇOS PARA A FUTURA E EVENTUAL AQUISIÇÃO DE MATERIAIS DE CIRURGIA E PROCEDIMENTOS, INSUMOS ESSENCIAIS PARA INTERVENÇÕES CIRÚRGICA E PROCEDIMENTOS MÉDICOS PARA ATENDER AS UNIDADES DE ATENÇÃO PRIMÁRIA A SAÚDE, UNIDADE DE PRONTO ATENDIMENTO (UPA), SERVIÇO DE ATENDIMENTO MÓVEL DE URGÊNCIA (SAMU), CENTRO DE ATENÇÃO INTEGRADA A SAÚDE (CAIS), CENTRO DE ESPECIALIDADES ODONTOLÓGICAS (CEO) E O HOSPITAL MUNICIPAL MODESTO DE CARVALHO (HMMC), NOS TERMOS DO TERMO DE REFERÊNCIA.",
+   "valor": null,
+   "prazo": "2026-12-02",
+   "link": "https://pncp.gov.br/app/editais/02204196000161/2026/515",
+   "visto_em": "2026-11-17T16:14",
+   "novo_em": "2026-11-17"
+  },
+  {
+   "id": "02451938000153-1-000391/2026",
+   "orgao": "MUNICIPIO DE ITABERAI",
+   "cidade": "Itaberaí",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 190/2026",
+   "objeto": "Aquisição de Materiais Hospitalares VII",
+   "valor": null,
+   "prazo": "2026-12-03",
+   "link": "https://pncp.gov.br/app/editais/02451938000153/2026/391",
+   "visto_em": "2026-11-17T16:14",
+   "novo_em": "2026-11-17"
+  },
+  {
+   "id": "10514375000123-1-000007/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+   "cidade": "Jussara",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº (17509) | 9-0/2026",
+   "objeto": "AQUISIÇÃO DE INSUMOS E MATERIAIS ODONTOLÓGICOS.",
+   "valor": null,
+   "prazo": "2026-12-04",
+   "link": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+   "visto_em": "2026-11-17T16:14",
+   "novo_em": "2026-11-17"
+  },
+  {
+   "id": "02922128000138-1-000046/2026",
+   "orgao": "MUNICIPIO DE JUSSARA",
+   "cidade": "Jussara",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 09/2026",
+   "objeto": "AQUISIÇÃO DE INSUMOS E MATERIAIS ODONTOLÓGICOS.",
+   "valor": null,
+   "prazo": "2026-12-04",
+   "link": "https://pncp.gov.br/app/editais/02922128000138/2026/46",
+   "visto_em": "2026-11-17T16:14",
+   "novo_em": "2026-11-17"
   }
  ]
 }
