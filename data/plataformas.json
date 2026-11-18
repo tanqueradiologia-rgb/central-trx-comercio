@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-17T16:19",
+ "gerado": "2026-11-18T15:59",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 132,
-   "visto_em": "2026-11-17"
+   "vezes": 138,
+   "visto_em": "2026-11-18"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 22,
-   "visto_em": "2026-11-17"
+   "vezes": 27,
+   "visto_em": "2026-11-18"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 8,
-   "visto_em": "2026-11-17"
+   "vezes": 10,
+   "visto_em": "2026-11-18"
   },
   {
    "dominio": "licitar.digital",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 14,
-   "visto_em": "2026-11-17"
+   "vezes": 20,
+   "visto_em": "2026-11-18"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 6,
-   "visto_em": "2026-11-17"
+   "vezes": 13,
+   "visto_em": "2026-11-18"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -568,14 +568,62 @@
    "nota": "Prefeitura de Sales Oliveira/SP (~11 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "megasofttransparencia.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-18",
+   "vezes": 4,
+   "exemplos": [
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-18"
+    }
+   ]
+  },
+  {
    "dominio": "pregaobanrisul.com.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "ignorar",
    "primeira_vez": "2026-11-13",
-   "visto_em": "2026-11-17",
-   "vezes": 3,
+   "visto_em": "2026-11-18",
+   "vezes": 4,
    "exemplos": [
     {
      "edital": "Edital nº 0030/2026",
@@ -603,9 +651,57 @@
      "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
      "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
      "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº 0074/2026",
+     "orgao": "MUNICIPIO DE INDEPENDENCIA",
+     "cidade": "Independência",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
+     "visto_em": "2026-11-18"
     }
    ],
    "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
+  },
+  {
+   "dominio": "jacutinga.mg.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-16",
+   "visto_em": "2026-11-18",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 100/2026",
+     "orgao": "MUNICIPIO DE JACUTINGA",
+     "cidade": "Jacutinga",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
+     "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
+     "visto_em": "2026-11-16"
+    },
+    {
+     "edital": "Edital nº 100/2026",
+     "orgao": "MUNICIPIO DE JACUTINGA",
+     "cidade": "Jacutinga",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
+     "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº 100/2026",
+     "orgao": "MUNICIPIO DE JACUTINGA",
+     "cidade": "Jacutinga",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
+     "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
+     "visto_em": "2026-11-18"
+    }
+   ]
   },
   {
    "dominio": "aracajucompras.se.gov.br",
@@ -639,6 +735,36 @@
    "nota": "Aracaju/SE, ~1.650 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "cabralia.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-18",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 29/2026",
+     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
+     "cidade": "Cabrália Paulista",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
+     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº 29/2026",
+     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
+     "cidade": "Cabrália Paulista",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
+     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
+     "visto_em": "2026-11-18"
+    }
+   ]
+  },
+  {
    "dominio": "governotransparente.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -667,97 +793,16 @@
      "visto_em": "2026-11-17"
     }
    ]
-  },
-  {
-   "dominio": "jacutinga.mg.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-16",
-   "visto_em": "2026-11-17",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Edital nº 100/2026",
-     "orgao": "MUNICIPIO DE JACUTINGA",
-     "cidade": "Jacutinga",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
-     "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
-     "visto_em": "2026-11-16"
-    },
-    {
-     "edital": "Edital nº 100/2026",
-     "orgao": "MUNICIPIO DE JACUTINGA",
-     "cidade": "Jacutinga",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
-     "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
-     "visto_em": "2026-11-17"
-    }
-   ]
-  },
-  {
-   "dominio": "megasofttransparencia.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-17",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Flores de Goiás",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
-     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Edital nº (17509) | 9-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-     "cidade": "Jussara",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
-     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
-     "visto_em": "2026-11-17"
-    }
-   ]
-  },
-  {
-   "dominio": "cabralia.sp.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-17",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 29/2026",
-     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
-     "cidade": "Cabrália Paulista",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
-     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
-     "visto_em": "2026-11-17"
-    }
-   ]
   }
  ],
  "estatistica": {
-  "editais_lidos": 320,
-  "com_origem": 237,
-  "sem_origem": 83,
-  "rodadas": 8,
-  "ultima_rodada": "2026-11-17T16:19",
+  "editais_lidos": 360,
+  "com_origem": 268,
+  "sem_origem": 92,
+  "rodadas": 9,
+  "ultima_rodada": "2026-11-18T15:59",
   "campos_usados": {
-   "link_sistema_origem": 26,
+   "link_sistema_origem": 29,
    "link_processo_eletronico (varredura)": 2
   }
  }

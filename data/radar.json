@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-17T16:14",
+ "gerado": "2026-11-18T15:55",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -133,6 +133,20 @@
    "novo_em": "2026-11-13"
   },
   {
+   "id": "86743457000101-1-000025/2026",
+   "orgao": "FUNDACAO HEMOCENTRO DE BRASILIA",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 12/2026",
+   "objeto": "Registro de preços para a aquisição de Materiais Médico-Hospitalares e Laboratoriais, visando atender às demandas das áreas técnicas da Fundação Hemocentro de Brasília (FHB)",
+   "valor": null,
+   "prazo": "2026-12-01",
+   "link": "https://pncp.gov.br/app/editais/86743457000101/2026/25",
+   "visto_em": "2026-11-18T15:55",
+   "novo_em": "2026-11-18"
+  },
+  {
    "id": "02204196000161-1-000515/2026",
    "orgao": "MUNICIPIO DE ITUMBIARA",
    "cidade": "Itumbiara",
@@ -145,6 +159,20 @@
    "link": "https://pncp.gov.br/app/editais/02204196000161/2026/515",
    "visto_em": "2026-11-17T16:14",
    "novo_em": "2026-11-17"
+  },
+  {
+   "id": "86743457000101-1-000026/2026",
+   "orgao": "FUNDACAO HEMOCENTRO DE BRASILIA",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 11/2026",
+   "objeto": "Registro de preços para a aquisição de Materiais Médico-Hospitalares e Laboratoriais, visando atender às demandas das áreas técnicas da  Fundação Hemocentro de Brasília",
+   "valor": null,
+   "prazo": "2026-12-02",
+   "link": "https://pncp.gov.br/app/editais/86743457000101/2026/26",
+   "visto_em": "2026-11-18T15:55",
+   "novo_em": "2026-11-18"
   },
   {
    "id": "02451938000153-1-000391/2026",
@@ -187,6 +215,20 @@
    "link": "https://pncp.gov.br/app/editais/02922128000138/2026/46",
    "visto_em": "2026-11-17T16:14",
    "novo_em": "2026-11-17"
+  },
+  {
+   "id": "02215275000178-1-001136/2026",
+   "orgao": "MUNICIPIO DE MINACU",
+   "cidade": "Minaçu",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 055/2026",
+   "objeto": "AQUISIÇÃO DE INSUMOS E MATERIAIS ODONTOLÓGICOS PARA ATENDER AS NECESSIDADES DAS UNIDADES BÁSICA DE SAÚDE DO MUNICÍPIO DE MINAÇU-GO.",
+   "valor": null,
+   "prazo": "2026-12-08",
+   "link": "https://pncp.gov.br/app/editais/02215275000178/2026/1136",
+   "visto_em": "2026-11-18T15:55",
+   "novo_em": "2026-11-18"
   }
  ]
 }
