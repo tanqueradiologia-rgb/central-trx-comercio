@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-18T15:59",
+ "gerado": "2026-11-19T16:09",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 138,
-   "visto_em": "2026-11-18"
+   "vezes": 149,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -48,8 +48,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 2,
-   "visto_em": "2026-11-12"
+   "vezes": 3,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "bll.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 27,
-   "visto_em": "2026-11-18"
+   "vezes": 30,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 10,
-   "visto_em": "2026-11-18"
+   "vezes": 12,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "licitar.digital",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 20,
-   "visto_em": "2026-11-18"
+   "vezes": 23,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 13,
-   "visto_em": "2026-11-18"
+   "vezes": 15,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 11,
-   "visto_em": "2026-11-15"
+   "vezes": 12,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -217,8 +217,8 @@
    "prioridade": 3,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. Lotes estaduais grandes podem pagar o frete aereo DF-Manaus; disputar caso a caso.",
-   "vezes": 4,
-   "visto_em": "2026-11-12"
+   "vezes": 5,
+   "visto_em": "2026-11-19"
   },
   {
    "dominio": "celic.rs.gov.br",
@@ -461,6 +461,63 @@
    "nota": "Prefeitura de Queiroz/SP (~3 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "megasofttransparencia.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-19",
+   "vezes": 6,
+   "exemplos": [
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº (4058) | 21-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE DE PALESTINA DE GOIAS",
+     "cidade": "Palestina de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10842697000100/2026/58",
+     "url_origem": "https://palestinadegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=4058",
+     "visto_em": "2026-11-19"
+    }
+   ]
+  },
+  {
    "dominio": "portaldecompras.recife.pe.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -519,6 +576,64 @@
    "nota": "Recife/PE, ~2.100 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "pregaobanrisul.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "ignorar",
+   "primeira_vez": "2026-11-13",
+   "visto_em": "2026-11-19",
+   "vezes": 5,
+   "exemplos": [
+    {
+     "edital": "Edital nº 0030/2026",
+     "orgao": "MUNICIPIO DE CANDIDO GODOI",
+     "cidade": "Cândido Godói",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612842000182/2026/131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
+     "visto_em": "2026-11-13"
+    },
+    {
+     "edital": "Edital nº 0277/2026",
+     "orgao": "MUNICIPIO DE CANOAS",
+     "cidade": "Canoas",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/88577416000118/2026/232",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0277_2026/359419",
+     "visto_em": "2026-11-16"
+    },
+    {
+     "edital": "Edital nº 0074/2026",
+     "orgao": "MUNICIPIO DE INDEPENDENCIA",
+     "cidade": "Independência",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº 0074/2026",
+     "orgao": "MUNICIPIO DE INDEPENDENCIA",
+     "cidade": "Independência",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº 0030/2026",
+     "orgao": "MUNICIPIO DE CANDIDO GODOI",
+     "cidade": "Cândido Godói",
+     "uf": "RS",
+     "link_pncp": "https://pncp.gov.br/app/editais/87612842000182/2026/131",
+     "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
+     "visto_em": "2026-11-19"
+    }
+   ],
+   "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
+  },
+  {
    "dominio": "189.112.90.177",
    "nome": "",
    "tipo": "a classificar",
@@ -566,103 +681,6 @@
     }
    ],
    "nota": "Prefeitura de Sales Oliveira/SP (~11 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
-  },
-  {
-   "dominio": "megasofttransparencia.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-18",
-   "vezes": 4,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Flores de Goiás",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
-     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Edital nº (17509) | 9-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-     "cidade": "Jussara",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
-     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Flores de Goiás",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
-     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
-     "visto_em": "2026-11-18"
-    },
-    {
-     "edital": "Edital nº (17509) | 9-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-     "cidade": "Jussara",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
-     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
-     "visto_em": "2026-11-18"
-    }
-   ]
-  },
-  {
-   "dominio": "pregaobanrisul.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "ignorar",
-   "primeira_vez": "2026-11-13",
-   "visto_em": "2026-11-18",
-   "vezes": 4,
-   "exemplos": [
-    {
-     "edital": "Edital nº 0030/2026",
-     "orgao": "MUNICIPIO DE CANDIDO GODOI",
-     "cidade": "Cândido Godói",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/87612842000182/2026/131",
-     "url_origem": "https://pregaobanrisul.com.br/editais/0030_2026/359376",
-     "visto_em": "2026-11-13"
-    },
-    {
-     "edital": "Edital nº 0277/2026",
-     "orgao": "MUNICIPIO DE CANOAS",
-     "cidade": "Canoas",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/88577416000118/2026/232",
-     "url_origem": "https://pregaobanrisul.com.br/editais/0277_2026/359419",
-     "visto_em": "2026-11-16"
-    },
-    {
-     "edital": "Edital nº 0074/2026",
-     "orgao": "MUNICIPIO DE INDEPENDENCIA",
-     "cidade": "Independência",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
-     "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Edital nº 0074/2026",
-     "orgao": "MUNICIPIO DE INDEPENDENCIA",
-     "cidade": "Independência",
-     "uf": "RS",
-     "link_pncp": "https://pncp.gov.br/app/editais/87612826000190/2026/1131",
-     "url_origem": "https://pregaobanrisul.com.br/editais/0074_2026/359636",
-     "visto_em": "2026-11-18"
-    }
-   ],
-   "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
    "dominio": "jacutinga.mg.gov.br",
@@ -793,14 +811,98 @@
      "visto_em": "2026-11-17"
     }
    ]
+  },
+  {
+   "dominio": "177.39.199.170",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-19",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 36/2026",
+     "orgao": "MUNICIPIO DE BALSAMO",
+     "cidade": "Bálsamo",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/45142353000164/2026/57",
+     "url_origem": "http://177.39.199.170:8079/COMPRASEDITAL/",
+     "visto_em": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "dominio": "comprasbr.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-19",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "dominio": "setelagoas.mg.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-19",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Aviso de Contratação Direta nº 28/2026",
+     "orgao": "FUNDACAO MUNICIPAL DE ENSINO PROFISSIONALIZANTE",
+     "cidade": "Sete Lagoas",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/20491718000135/2026/29",
+     "url_origem": "https://www.setelagoas.mg.gov.br/detalhe-da-licitacao/info/dle-143226-2026/46447",
+     "visto_em": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "dominio": "siades.es.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-19",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 145/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
+     "visto_em": "2026-11-19"
+    }
+   ]
   }
  ],
  "estatistica": {
-  "editais_lidos": 360,
-  "com_origem": 268,
-  "sem_origem": 92,
-  "rodadas": 9,
-  "ultima_rodada": "2026-11-18T15:59",
+  "editais_lidos": 400,
+  "com_origem": 299,
+  "sem_origem": 101,
+  "rodadas": 10,
+  "ultima_rodada": "2026-11-19T16:09",
   "campos_usados": {
    "link_sistema_origem": 29,
    "link_processo_eletronico (varredura)": 2

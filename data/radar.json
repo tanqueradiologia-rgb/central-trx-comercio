@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-18T15:55",
+ "gerado": "2026-11-19T16:03",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -175,6 +175,20 @@
    "novo_em": "2026-11-18"
   },
   {
+   "id": "35840659000130-1-000098/2026",
+   "orgao": "UNIVERSIDADE FEDERAL DE JATAI",
+   "cidade": "Jataí",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 127/2026",
+   "objeto": "Aquisição de materiais hospitalares e de consumo para atividades práticas dos alunos.",
+   "valor": null,
+   "prazo": "2026-12-02",
+   "link": "https://pncp.gov.br/app/editais/35840659000130/2026/98",
+   "visto_em": "2026-11-19T16:03",
+   "novo_em": "2026-11-19"
+  },
+  {
    "id": "02451938000153-1-000391/2026",
    "orgao": "MUNICIPIO DE ITABERAI",
    "cidade": "Itaberaí",
@@ -187,6 +201,20 @@
    "link": "https://pncp.gov.br/app/editais/02451938000153/2026/391",
    "visto_em": "2026-11-17T16:14",
    "novo_em": "2026-11-17"
+  },
+  {
+   "id": "10842697000100-1-000058/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DE PALESTINA DE GOIAS",
+   "cidade": "Palestina de Goiás",
+   "uf": "GO",
+   "modalidade": "Pregão - Presencial",
+   "edital": "Edital nº (4058) | 21-0/2026",
+   "objeto": "CONTRATAÇÃO DE EMPRESA PARA O REGISTRO DE PREÇO PARA FUTURA E EVENTUAL FORNECIMENTO DE MATERIAIS HOSPITALARES",
+   "valor": null,
+   "prazo": "2026-12-03",
+   "link": "https://pncp.gov.br/app/editais/10842697000100/2026/58",
+   "visto_em": "2026-11-19T16:03",
+   "novo_em": "2026-11-19"
   },
   {
    "id": "10514375000123-1-000007/2026",
@@ -229,6 +257,20 @@
    "link": "https://pncp.gov.br/app/editais/02215275000178/2026/1136",
    "visto_em": "2026-11-18T15:55",
    "novo_em": "2026-11-18"
+  },
+  {
+   "id": "07556717000163-1-000083/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE",
+   "cidade": "Luziânia",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 51/2026",
+   "objeto": "REGISTRO DE PREÇOS PARA EVENTUAL E FUTURA AQUISIÇÃO DE MATERIAIS MÉDICO- HOSPITALARES, PARA ABASTECIMENTO E DISTRIBUIÇÃO JUNTO AS UNIDADES DE\nSAÚDE VINCULADAS A SECRETARIA DE SAÚDE DE LUZIÂNIA-GO.",
+   "valor": null,
+   "prazo": "2026-12-08",
+   "link": "https://pncp.gov.br/app/editais/07556717000163/2026/83",
+   "visto_em": "2026-11-19T16:03",
+   "novo_em": "2026-11-19"
   }
  ]
 }
