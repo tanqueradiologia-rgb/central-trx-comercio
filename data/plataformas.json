@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-19T16:09",
+ "gerado": "2026-11-20T15:44",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 149,
-   "visto_em": "2026-11-19"
+   "vezes": 163,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -48,8 +48,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 3,
-   "visto_em": "2026-11-19"
+   "vezes": 4,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "bll.org.br",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 12,
-   "visto_em": "2026-11-19"
+   "vezes": 13,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "licitar.digital",
@@ -110,8 +110,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
-   "vezes": 7,
-   "visto_em": "2026-11-15"
+   "vezes": 8,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "portaldecompraspublicas.com.br",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 23,
-   "visto_em": "2026-11-19"
+   "vezes": 24,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 15,
-   "visto_em": "2026-11-19"
+   "vezes": 17,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 12,
-   "visto_em": "2026-11-19"
+   "vezes": 16,
+   "visto_em": "2026-11-20"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -403,6 +403,63 @@
  ],
  "novas": [
   {
+   "dominio": "megasofttransparencia.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-20",
+   "vezes": 8,
+   "exemplos": [
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE",
+     "cidade": "Flores de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
+     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº (17509) | 9-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
+     "cidade": "Jussara",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
+     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº (4058) | 21-0/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE DE PALESTINA DE GOIAS",
+     "cidade": "Palestina de Goiás",
+     "uf": "GO",
+     "link_pncp": "https://pncp.gov.br/app/editais/10842697000100/2026/58",
+     "url_origem": "https://palestinadegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=4058",
+     "visto_em": "2026-11-19"
+    }
+   ]
+  },
+  {
    "dominio": "187.17.201.73",
    "nome": "",
    "tipo": "a classificar",
@@ -459,63 +516,6 @@
     }
    ],
    "nota": "Prefeitura de Queiroz/SP (~3 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
-  },
-  {
-   "dominio": "megasofttransparencia.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-19",
-   "vezes": 6,
-   "exemplos": [
-    {
-     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Flores de Goiás",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
-     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Edital nº (17509) | 9-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-     "cidade": "Jussara",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
-     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE",
-     "cidade": "Flores de Goiás",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/11479852000120/2026/35",
-     "url_origem": "https://floresdegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/dispensas-inexigibilidades?codigoDaLicitacao=20475",
-     "visto_em": "2026-11-18"
-    },
-    {
-     "edital": "Edital nº (17509) | 9-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE - FMS",
-     "cidade": "Jussara",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/10514375000123/2026/7",
-     "url_origem": "https://jussara.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=17509",
-     "visto_em": "2026-11-18"
-    },
-    {
-     "edital": "Edital nº (4058) | 21-0/2026",
-     "orgao": "FUNDO MUNICIPAL DE SAUDE DE PALESTINA DE GOIAS",
-     "cidade": "Palestina de Goiás",
-     "uf": "GO",
-     "link_pncp": "https://pncp.gov.br/app/editais/10842697000100/2026/58",
-     "url_origem": "https://palestinadegoias.megasofttransparencia.com.br/contratos-convenios-e-licitacoes/procedimentos-licitatorios?codigoDaLicitacao=4058",
-     "visto_em": "2026-11-19"
-    }
-   ]
   },
   {
    "dominio": "portaldecompras.recife.pe.gov.br",
@@ -722,6 +722,45 @@
    ]
   },
   {
+   "dominio": "siades.es.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-20",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 145/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
+     "visto_em": "2026-11-19"
+    },
+    {
+     "edital": "Edital nº 145/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 149/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/337",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2460/dados-edital",
+     "visto_em": "2026-11-20"
+    }
+   ]
+  },
+  {
    "dominio": "aracajucompras.se.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -783,6 +822,36 @@
    ]
   },
   {
+   "dominio": "comprasbr.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-20",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-19"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-20"
+    }
+   ]
+  },
+  {
    "dominio": "governotransparente.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -834,23 +903,65 @@
    ]
   },
   {
-   "dominio": "comprasbr.com.br",
+   "dominio": "compras.barueri.sp.gov.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
-   "primeira_vez": "2026-11-19",
-   "visto_em": "2026-11-19",
+   "primeira_vez": "2026-11-20",
+   "visto_em": "2026-11-20",
    "vezes": 1,
    "exemplos": [
     {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-19"
+     "edital": "Edital nº 00298/2026",
+     "orgao": "MUNICIPIO DE BARUERI",
+     "cidade": "Barueri",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46523015000135/2026/491",
+     "url_origem": "https://compras.barueri.sp.gov.br/Default.aspx",
+     "visto_em": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "dominio": "compras.manaus.am.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-20",
+   "visto_em": "2026-11-20",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 113/2026",
+     "orgao": "MANAUS SECRETARIA MUNICIPAL DE SAUDE",
+     "cidade": "Manaus",
+     "uf": "AM",
+     "link_pncp": "https://pncp.gov.br/app/editais/04461836000144/2026/60",
+     "url_origem": "https://compras.manaus.am.gov.br/publico/item_em_andamento.asp?id=142274",
+     "visto_em": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "dominio": "licitamaisbrasil.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-20",
+   "visto_em": "2026-11-20",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 0132026PEFME/2026",
+     "orgao": "MUNICIPIO DE APUIARES",
+     "cidade": "Apuiarés",
+     "uf": "CE",
+     "link_pncp": "https://pncp.gov.br/app/editais/07438468000101/2026/35",
+     "url_origem": "https://licitamaisbrasil.com.br/detalhes-do-edital/RNMQX1quoSldv-ZI",
+     "visto_em": "2026-11-20"
     }
    ]
   },
@@ -874,37 +985,16 @@
      "visto_em": "2026-11-19"
     }
    ]
-  },
-  {
-   "dominio": "siades.es.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-19",
-   "visto_em": "2026-11-19",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 145/2026",
-     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
-     "cidade": "Vitória",
-     "uf": "ES",
-     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
-     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
-     "visto_em": "2026-11-19"
-    }
-   ]
   }
  ],
  "estatistica": {
-  "editais_lidos": 400,
-  "com_origem": 299,
-  "sem_origem": 101,
-  "rodadas": 10,
-  "ultima_rodada": "2026-11-19T16:09",
+  "editais_lidos": 440,
+  "com_origem": 331,
+  "sem_origem": 109,
+  "rodadas": 11,
+  "ultima_rodada": "2026-11-20T15:44",
   "campos_usados": {
-   "link_sistema_origem": 29,
+   "link_sistema_origem": 30,
    "link_processo_eletronico (varredura)": 2
   }
  }

@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-19T16:03",
+ "gerado": "2026-11-20T15:39",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -103,6 +103,20 @@
    "link": "https://pncp.gov.br/app/editais/11409678000149/2026/24",
    "visto_em": "2026-11-12T19:21",
    "novo_em": "2026-11-12"
+  },
+  {
+   "id": "15126437000305-1-004775/2026",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 133/2026",
+   "objeto": "aquisição centralizada de produtos para saúde (seringas), por meio de Dispensa Eletrônica, destinada à contratação dos itens fracassados do Pregão Eletrônico SRP nº 90055/2026 - processo 23477.006177/2026-66, visando atender às necessidades dos hospitais universitários federais sob gestão da Rede HU Brasil, pelo período de 12 (doze) meses, conforme especificações e condições estabelecidas neste instrumento.",
+   "valor": null,
+   "prazo": "2026-11-25",
+   "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4775",
+   "visto_em": "2026-11-20T15:39",
+   "novo_em": "2026-11-20"
   },
   {
    "id": "00509018000113-1-002539/2026",
