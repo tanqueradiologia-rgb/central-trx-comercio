@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-20T15:44",
+ "gerado": "2026-11-21T14:44",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 163,
-   "visto_em": "2026-11-20"
+   "vezes": 172,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -48,8 +48,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 4,
-   "visto_em": "2026-11-20"
+   "vezes": 5,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "bll.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 30,
-   "visto_em": "2026-11-19"
+   "vezes": 33,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 13,
-   "visto_em": "2026-11-20"
+   "vezes": 15,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "licitar.digital",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 24,
-   "visto_em": "2026-11-20"
+   "vezes": 29,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 17,
-   "visto_em": "2026-11-20"
+   "vezes": 22,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 16,
-   "visto_em": "2026-11-20"
+   "vezes": 17,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -217,8 +217,8 @@
    "prioridade": 3,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. Lotes estaduais grandes podem pagar o frete aereo DF-Manaus; disputar caso a caso.",
-   "vezes": 5,
-   "visto_em": "2026-11-19"
+   "vezes": 6,
+   "visto_em": "2026-11-21"
   },
   {
    "dominio": "celic.rs.gov.br",
@@ -409,8 +409,8 @@
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
    "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-20",
-   "vezes": 8,
+   "visto_em": "2026-11-21",
+   "vezes": 10,
    "exemplos": [
     {
      "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
@@ -683,6 +683,45 @@
    "nota": "Prefeitura de Sales Oliveira/SP (~11 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "comprasbr.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-21",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-19"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-21"
+    }
+   ]
+  },
+  {
    "dominio": "jacutinga.mg.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -822,36 +861,6 @@
    ]
   },
   {
-   "dominio": "comprasbr.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-19",
-   "visto_em": "2026-11-20",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-19"
-    },
-    {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-20"
-    }
-   ]
-  },
-  {
    "dominio": "governotransparente.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -945,6 +954,27 @@
    ]
   },
   {
+   "dominio": "compras.saobernardo.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-21",
+   "visto_em": "2026-11-21",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº PE 267/2026_1429/2026",
+     "orgao": "MUNICIPIO DE SAO BERNARDO DO CAMPO",
+     "cidade": "São Bernardo do Campo",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46523239000147/2026/571",
+     "url_origem": "https://compras.saobernardo.sp.gov.br/",
+     "visto_em": "2026-11-21"
+    }
+   ]
+  },
+  {
    "dominio": "licitamaisbrasil.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -988,13 +1018,13 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 440,
-  "com_origem": 331,
-  "sem_origem": 109,
-  "rodadas": 11,
-  "ultima_rodada": "2026-11-20T15:44",
+  "editais_lidos": 480,
+  "com_origem": 362,
+  "sem_origem": 118,
+  "rodadas": 12,
+  "ultima_rodada": "2026-11-21T14:44",
   "campos_usados": {
-   "link_sistema_origem": 30,
+   "link_sistema_origem": 29,
    "link_processo_eletronico (varredura)": 2
   }
  }
