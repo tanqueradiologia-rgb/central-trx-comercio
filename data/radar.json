@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-21T14:39",
+ "gerado": "2026-11-22T14:54",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -285,6 +285,20 @@
    "link": "https://pncp.gov.br/app/editais/07556717000163/2026/83",
    "visto_em": "2026-11-19T16:03",
    "novo_em": "2026-11-19"
+  },
+  {
+   "id": "01179647000195-1-000414/2026",
+   "orgao": "MUNICIPIO DE PIRACANJUBA",
+   "cidade": "Piracanjuba",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 48/2026",
+   "objeto": "MATERIAIS ODONTOLÓGICOS, MATERIAIS DE CONSUMO ODONTOLÓGICO, INSUMOS ENDODÔNTICOS E ITENS CORRELATOS.",
+   "valor": null,
+   "prazo": "2026-12-21",
+   "link": "https://pncp.gov.br/app/editais/01179647000195/2026/414",
+   "visto_em": "2026-11-22T14:54",
+   "novo_em": "2026-11-22"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-21T14:44",
+ "gerado": "2026-11-22T14:59",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 172,
-   "visto_em": "2026-11-21"
+   "vezes": 186,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -48,8 +48,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 5,
-   "visto_em": "2026-11-21"
+   "vezes": 6,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "bll.org.br",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 15,
-   "visto_em": "2026-11-21"
+   "vezes": 16,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "licitar.digital",
@@ -110,8 +110,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
-   "vezes": 8,
-   "visto_em": "2026-11-20"
+   "vezes": 9,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "portaldecompraspublicas.com.br",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 29,
-   "visto_em": "2026-11-21"
+   "vezes": 30,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 22,
-   "visto_em": "2026-11-21"
+   "vezes": 24,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 17,
-   "visto_em": "2026-11-21"
+   "vezes": 21,
+   "visto_em": "2026-11-22"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -409,8 +409,8 @@
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
    "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-21",
-   "vezes": 10,
+   "visto_em": "2026-11-22",
+   "vezes": 12,
    "exemplos": [
     {
      "edital": "Aviso de Contratação Direta nº (20475) | 37-0/2026",
@@ -634,6 +634,63 @@
    "nota": "Pregao Banrisul (RS), 1 vista, municipio pequeno e distante. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "siades.es.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-22",
+   "vezes": 5,
+   "exemplos": [
+    {
+     "edital": "Edital nº 145/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
+     "visto_em": "2026-11-19"
+    },
+    {
+     "edital": "Edital nº 145/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 149/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/337",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2460/dados-edital",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 145/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
+     "visto_em": "2026-11-22"
+    },
+    {
+     "edital": "Edital nº 149/2026",
+     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+     "cidade": "Vitória",
+     "uf": "ES",
+     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/337",
+     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2460/dados-edital",
+     "visto_em": "2026-11-22"
+    }
+   ]
+  },
+  {
    "dominio": "189.112.90.177",
    "nome": "",
    "tipo": "a classificar",
@@ -689,8 +746,8 @@
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
    "primeira_vez": "2026-11-19",
-   "visto_em": "2026-11-21",
-   "vezes": 3,
+   "visto_em": "2026-11-22",
+   "vezes": 4,
    "exemplos": [
     {
      "edital": "Edital nº 037/2026",
@@ -718,6 +775,15 @@
      "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
      "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
      "visto_em": "2026-11-21"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-22"
     }
    ]
   },
@@ -757,45 +823,6 @@
      "link_pncp": "https://pncp.gov.br/app/editais/17914128000163/2026/144",
      "url_origem": "https://www.jacutinga.mg.gov.br/?pag=T1RjPU9EZz1PVFU9T0dVPU9HST1PVEE9T0dFPU9HRT0=&idmenu=286",
      "visto_em": "2026-11-18"
-    }
-   ]
-  },
-  {
-   "dominio": "siades.es.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-19",
-   "visto_em": "2026-11-20",
-   "vezes": 3,
-   "exemplos": [
-    {
-     "edital": "Edital nº 145/2026",
-     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
-     "cidade": "Vitória",
-     "uf": "ES",
-     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
-     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
-     "visto_em": "2026-11-19"
-    },
-    {
-     "edital": "Edital nº 145/2026",
-     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
-     "cidade": "Vitória",
-     "uf": "ES",
-     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/333",
-     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2435/dados-edital",
-     "visto_em": "2026-11-20"
-    },
-    {
-     "edital": "Edital nº 149/2026",
-     "orgao": "SECRETARIA DE ESTADO DA SAUDE",
-     "cidade": "Vitória",
-     "uf": "ES",
-     "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/337",
-     "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2460/dados-edital",
-     "visto_em": "2026-11-20"
     }
    ]
   },
@@ -861,6 +888,66 @@
    ]
   },
   {
+   "dominio": "compras.barueri.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-20",
+   "visto_em": "2026-11-22",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 00298/2026",
+     "orgao": "MUNICIPIO DE BARUERI",
+     "cidade": "Barueri",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46523015000135/2026/491",
+     "url_origem": "https://compras.barueri.sp.gov.br/Default.aspx",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 00298/2026",
+     "orgao": "MUNICIPIO DE BARUERI",
+     "cidade": "Barueri",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46523015000135/2026/491",
+     "url_origem": "https://compras.barueri.sp.gov.br/Default.aspx",
+     "visto_em": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "dominio": "compras.manaus.am.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-20",
+   "visto_em": "2026-11-22",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 113/2026",
+     "orgao": "MANAUS SECRETARIA MUNICIPAL DE SAUDE",
+     "cidade": "Manaus",
+     "uf": "AM",
+     "link_pncp": "https://pncp.gov.br/app/editais/04461836000144/2026/60",
+     "url_origem": "https://compras.manaus.am.gov.br/publico/item_em_andamento.asp?id=142274",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 113/2026",
+     "orgao": "MANAUS SECRETARIA MUNICIPAL DE SAUDE",
+     "cidade": "Manaus",
+     "uf": "AM",
+     "link_pncp": "https://pncp.gov.br/app/editais/04461836000144/2026/60",
+     "url_origem": "https://compras.manaus.am.gov.br/publico/item_em_andamento.asp?id=142274",
+     "visto_em": "2026-11-22"
+    }
+   ]
+  },
+  {
    "dominio": "governotransparente.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -891,6 +978,36 @@
    ]
   },
   {
+   "dominio": "licitamaisbrasil.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-20",
+   "visto_em": "2026-11-22",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 0132026PEFME/2026",
+     "orgao": "MUNICIPIO DE APUIARES",
+     "cidade": "Apuiarés",
+     "uf": "CE",
+     "link_pncp": "https://pncp.gov.br/app/editais/07438468000101/2026/35",
+     "url_origem": "https://licitamaisbrasil.com.br/detalhes-do-edital/RNMQX1quoSldv-ZI",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 0132026PEFME/2026",
+     "orgao": "MUNICIPIO DE APUIARES",
+     "cidade": "Apuiarés",
+     "uf": "CE",
+     "link_pncp": "https://pncp.gov.br/app/editais/07438468000101/2026/35",
+     "url_origem": "https://licitamaisbrasil.com.br/detalhes-do-edital/RNMQX1quoSldv-ZI",
+     "visto_em": "2026-11-22"
+    }
+   ]
+  },
+  {
    "dominio": "177.39.199.170",
    "nome": "",
    "tipo": "a classificar",
@@ -912,48 +1029,6 @@
    ]
   },
   {
-   "dominio": "compras.barueri.sp.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-20",
-   "visto_em": "2026-11-20",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 00298/2026",
-     "orgao": "MUNICIPIO DE BARUERI",
-     "cidade": "Barueri",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46523015000135/2026/491",
-     "url_origem": "https://compras.barueri.sp.gov.br/Default.aspx",
-     "visto_em": "2026-11-20"
-    }
-   ]
-  },
-  {
-   "dominio": "compras.manaus.am.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-20",
-   "visto_em": "2026-11-20",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 113/2026",
-     "orgao": "MANAUS SECRETARIA MUNICIPAL DE SAUDE",
-     "cidade": "Manaus",
-     "uf": "AM",
-     "link_pncp": "https://pncp.gov.br/app/editais/04461836000144/2026/60",
-     "url_origem": "https://compras.manaus.am.gov.br/publico/item_em_andamento.asp?id=142274",
-     "visto_em": "2026-11-20"
-    }
-   ]
-  },
-  {
    "dominio": "compras.saobernardo.sp.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -971,27 +1046,6 @@
      "link_pncp": "https://pncp.gov.br/app/editais/46523239000147/2026/571",
      "url_origem": "https://compras.saobernardo.sp.gov.br/",
      "visto_em": "2026-11-21"
-    }
-   ]
-  },
-  {
-   "dominio": "licitamaisbrasil.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-20",
-   "visto_em": "2026-11-20",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 0132026PEFME/2026",
-     "orgao": "MUNICIPIO DE APUIARES",
-     "cidade": "Apuiarés",
-     "uf": "CE",
-     "link_pncp": "https://pncp.gov.br/app/editais/07438468000101/2026/35",
-     "url_origem": "https://licitamaisbrasil.com.br/detalhes-do-edital/RNMQX1quoSldv-ZI",
-     "visto_em": "2026-11-20"
     }
    ]
   },
@@ -1018,13 +1072,13 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 480,
-  "com_origem": 362,
-  "sem_origem": 118,
-  "rodadas": 12,
-  "ultima_rodada": "2026-11-21T14:44",
+  "editais_lidos": 520,
+  "com_origem": 394,
+  "sem_origem": 126,
+  "rodadas": 13,
+  "ultima_rodada": "2026-11-22T14:59",
   "campos_usados": {
-   "link_sistema_origem": 29,
+   "link_sistema_origem": 30,
    "link_processo_eletronico (varredura)": 2
   }
  }
