@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-22T14:54",
+ "gerado": "2026-11-23T19:06",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -119,6 +119,20 @@
    "novo_em": "2026-11-20"
   },
   {
+   "id": "01068014000100-1-000314/2026",
+   "orgao": "MUNICIPIO DE SAO DOMINGOS",
+   "cidade": "São Domingos",
+   "uf": "GO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 172/2026",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE MATERIAIS E INSUMOS DE PRIMEIROS SOCORROS E ARES CONDICIONADOS, DESTINADOS AO ATENDIMENTO DAS NECESSIDADES DAS UNIDADES ESCOLARES: ESCOLA MUNI",
+   "valor": null,
+   "prazo": "2026-11-25",
+   "link": "https://pncp.gov.br/app/editais/01068014000100/2026/314",
+   "visto_em": "2026-11-23T19:06",
+   "novo_em": "2026-11-23"
+  },
+  {
    "id": "00509018000113-1-002539/2026",
    "orgao": "TRIBUNAL SUPERIOR ELEITORAL",
    "cidade": "Brasília",
@@ -145,6 +159,20 @@
    "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4612",
    "visto_em": "2026-11-13T14:53",
    "novo_em": "2026-11-13"
+  },
+  {
+   "id": "15126437000305-1-004823/2026",
+   "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+   "cidade": "Goiânia",
+   "uf": "GO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 189/2026",
+   "objeto": "Material hospitalar- pás adesivas, extensor e outros)",
+   "valor": null,
+   "prazo": "2026-11-27",
+   "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4823",
+   "visto_em": "2026-11-23T19:06",
+   "novo_em": "2026-11-23"
   },
   {
    "id": "86743457000101-1-000025/2026",
@@ -257,6 +285,20 @@
    "link": "https://pncp.gov.br/app/editais/02922128000138/2026/46",
    "visto_em": "2026-11-17T16:14",
    "novo_em": "2026-11-17"
+  },
+  {
+   "id": "08351513000159-1-000107/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE DE CABECEIRAS",
+   "cidade": "Cabeceiras",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº (2925) | 43-0/2026",
+   "objeto": "REGISTRO DE PREÇOS PARA AQUISIÇÃO FUTURA E PARCELADA DE MATERIAIS HOSPITALARES E INSUMOS DESTINADOS À PACIENTE A.L.A. EM CUMPRIMENTO À TUTELA DE URGÊNCIA DETERMINADA NO PROCESSO JUDICIAL DE MANDADO DE SEGURANÇA 6045229-09.2026.8.09.0044.",
+   "valor": null,
+   "prazo": "2026-12-04",
+   "link": "https://pncp.gov.br/app/editais/08351513000159/2026/107",
+   "visto_em": "2026-11-23T19:06",
+   "novo_em": "2026-11-23"
   },
   {
    "id": "02215275000178-1-001136/2026",

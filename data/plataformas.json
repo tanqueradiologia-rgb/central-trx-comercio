@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-22T14:59",
+ "gerado": "2026-11-23T19:11",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 186,
-   "visto_em": "2026-11-22"
+   "vezes": 207,
+   "visto_em": "2026-11-23"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 33,
-   "visto_em": "2026-11-21"
+   "vezes": 34,
+   "visto_em": "2026-11-23"
   },
   {
    "dominio": "bionexo.com",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 30,
-   "visto_em": "2026-11-22"
+   "vezes": 33,
+   "visto_em": "2026-11-23"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 24,
-   "visto_em": "2026-11-22"
+   "vezes": 26,
+   "visto_em": "2026-11-23"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 21,
-   "visto_em": "2026-11-22"
+   "vezes": 24,
+   "visto_em": "2026-11-23"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -217,8 +217,8 @@
    "prioridade": 3,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. Lotes estaduais grandes podem pagar o frete aereo DF-Manaus; disputar caso a caso.",
-   "vezes": 6,
-   "visto_em": "2026-11-21"
+   "vezes": 7,
+   "visto_em": "2026-11-23"
   },
   {
    "dominio": "celic.rs.gov.br",
@@ -1050,6 +1050,27 @@
    ]
   },
   {
+   "dominio": "pregaoareiassp.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-23",
+   "visto_em": "2026-11-23",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 0026/2026",
+     "orgao": "MUNICIPIO DE AREIAS",
+     "cidade": "Areias",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/45195963000126/2026/36",
+     "url_origem": "http://www.pregaoareiassp.com.br",
+     "visto_em": "2026-11-23"
+    }
+   ]
+  },
+  {
    "dominio": "setelagoas.mg.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -1072,14 +1093,13 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 520,
-  "com_origem": 394,
-  "sem_origem": 126,
-  "rodadas": 13,
-  "ultima_rodada": "2026-11-22T14:59",
+  "editais_lidos": 560,
+  "com_origem": 426,
+  "sem_origem": 134,
+  "rodadas": 14,
+  "ultima_rodada": "2026-11-23T19:11",
   "campos_usados": {
-   "link_sistema_origem": 30,
-   "link_processo_eletronico (varredura)": 2
+   "link_sistema_origem": 32
   }
  }
 }
