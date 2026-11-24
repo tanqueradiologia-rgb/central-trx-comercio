@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-23T19:11",
+ "gerado": "2026-11-24T17:47",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 207,
-   "visto_em": "2026-11-23"
+   "vezes": 219,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -48,8 +48,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 6,
-   "visto_em": "2026-11-22"
+   "vezes": 8,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "bll.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 34,
-   "visto_em": "2026-11-23"
+   "vezes": 37,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "bionexo.com",
@@ -99,8 +99,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 2,
-   "visto_em": "2026-11-17"
+   "vezes": 3,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "www1.compras.mg.gov.br",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 33,
-   "visto_em": "2026-11-23"
+   "vezes": 36,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 26,
-   "visto_em": "2026-11-23"
+   "vezes": 28,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 24,
-   "visto_em": "2026-11-23"
+   "vezes": 25,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -256,7 +256,9 @@
    "abrangencia": "Rio de Janeiro",
    "prioridade": 4,
    "situacao_comercio": "",
-   "nota": ""
+   "nota": "",
+   "vezes": 1,
+   "visto_em": "2026-11-24"
   },
   {
    "dominio": "atende.net",
@@ -788,6 +790,45 @@
    ]
   },
   {
+   "dominio": "cabralia.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-17",
+   "visto_em": "2026-11-24",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 29/2026",
+     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
+     "cidade": "Cabrália Paulista",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
+     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
+     "visto_em": "2026-11-17"
+    },
+    {
+     "edital": "Edital nº 29/2026",
+     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
+     "cidade": "Cabrália Paulista",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
+     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
+     "visto_em": "2026-11-18"
+    },
+    {
+     "edital": "Edital nº 28/2026",
+     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
+     "cidade": "Cabrália Paulista",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/66",
+     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
+     "visto_em": "2026-11-24"
+    }
+   ]
+  },
+  {
    "dominio": "jacutinga.mg.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -858,36 +899,6 @@
    "nota": "Aracaju/SE, ~1.650 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
-   "dominio": "cabralia.sp.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-17",
-   "visto_em": "2026-11-18",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Edital nº 29/2026",
-     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
-     "cidade": "Cabrália Paulista",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
-     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
-     "visto_em": "2026-11-17"
-    },
-    {
-     "edital": "Edital nº 29/2026",
-     "orgao": "MUNICIPIO DE CABRALIA PAULISTA",
-     "cidade": "Cabrália Paulista",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46137469000178/2026/64",
-     "url_origem": "https://www.cabralia.sp.gov.br/licitacao",
-     "visto_em": "2026-11-18"
-    }
-   ]
-  },
-  {
    "dominio": "compras.barueri.sp.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -944,6 +955,36 @@
      "link_pncp": "https://pncp.gov.br/app/editais/04461836000144/2026/60",
      "url_origem": "https://compras.manaus.am.gov.br/publico/item_em_andamento.asp?id=142274",
      "visto_em": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "dominio": "compras.saobernardo.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-21",
+   "visto_em": "2026-11-24",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº PE 267/2026_1429/2026",
+     "orgao": "MUNICIPIO DE SAO BERNARDO DO CAMPO",
+     "cidade": "São Bernardo do Campo",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46523239000147/2026/571",
+     "url_origem": "https://compras.saobernardo.sp.gov.br/",
+     "visto_em": "2026-11-21"
+    },
+    {
+     "edital": "Edital nº PE 267/2026_1429/2026",
+     "orgao": "MUNICIPIO DE SAO BERNARDO DO CAMPO",
+     "cidade": "São Bernardo do Campo",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/46523239000147/2026/571",
+     "url_origem": "https://compras.saobernardo.sp.gov.br/",
+     "visto_em": "2026-11-24"
     }
    ]
   },
@@ -1008,6 +1049,36 @@
    ]
   },
   {
+   "dominio": "pregaoareiassp.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-23",
+   "visto_em": "2026-11-24",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 0026/2026",
+     "orgao": "MUNICIPIO DE AREIAS",
+     "cidade": "Areias",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/45195963000126/2026/36",
+     "url_origem": "http://www.pregaoareiassp.com.br",
+     "visto_em": "2026-11-23"
+    },
+    {
+     "edital": "Edital nº 0026/2026",
+     "orgao": "MUNICIPIO DE AREIAS",
+     "cidade": "Areias",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/45195963000126/2026/36",
+     "url_origem": "http://www.pregaoareiassp.com.br",
+     "visto_em": "2026-11-24"
+    }
+   ]
+  },
+  {
    "dominio": "177.39.199.170",
    "nome": "",
    "tipo": "a classificar",
@@ -1029,44 +1100,23 @@
    ]
   },
   {
-   "dominio": "compras.saobernardo.sp.gov.br",
+   "dominio": "200.95.195.86",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
-   "primeira_vez": "2026-11-21",
-   "visto_em": "2026-11-21",
+   "primeira_vez": "2026-11-24",
+   "visto_em": "2026-11-24",
    "vezes": 1,
    "exemplos": [
     {
-     "edital": "Edital nº PE 267/2026_1429/2026",
-     "orgao": "MUNICIPIO DE SAO BERNARDO DO CAMPO",
-     "cidade": "São Bernardo do Campo",
+     "edital": "Edital nº 45/2026",
+     "orgao": "MUNICIPIO DE CEDRAL",
+     "cidade": "Cedral",
      "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/46523239000147/2026/571",
-     "url_origem": "https://compras.saobernardo.sp.gov.br/",
-     "visto_em": "2026-11-21"
-    }
-   ]
-  },
-  {
-   "dominio": "pregaoareiassp.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-23",
-   "visto_em": "2026-11-23",
-   "vezes": 1,
-   "exemplos": [
-    {
-     "edital": "Edital nº 0026/2026",
-     "orgao": "MUNICIPIO DE AREIAS",
-     "cidade": "Areias",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/45195963000126/2026/36",
-     "url_origem": "http://www.pregaoareiassp.com.br",
-     "visto_em": "2026-11-23"
+     "link_pncp": "https://pncp.gov.br/app/editais/45093663000136/2026/49",
+     "url_origem": "http://200.95.195.86:8081/comprasedital/",
+     "visto_em": "2026-11-24"
     }
    ]
   },
@@ -1093,13 +1143,13 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 560,
-  "com_origem": 426,
-  "sem_origem": 134,
-  "rodadas": 14,
-  "ultima_rodada": "2026-11-23T19:11",
+  "editais_lidos": 600,
+  "com_origem": 455,
+  "sem_origem": 145,
+  "rodadas": 15,
+  "ultima_rodada": "2026-11-24T17:47",
   "campos_usados": {
-   "link_sistema_origem": 32
+   "link_sistema_origem": 29
   }
  }
 }

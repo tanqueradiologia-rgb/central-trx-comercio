@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-23T19:06",
+ "gerado": "2026-11-24T17:42",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -327,6 +327,20 @@
    "link": "https://pncp.gov.br/app/editais/07556717000163/2026/83",
    "visto_em": "2026-11-19T16:03",
    "novo_em": "2026-11-19"
+  },
+  {
+   "id": "03277610000125-1-000624/2026",
+   "orgao": "MINISTERIO DA DEFESA",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 368/2026",
+   "objeto": "Aquisição de material de consumo para atendimento das necessidades dos procedimentos realizados na SECME (3º andar) e na SCME da Divisão de Odontologia.",
+   "valor": null,
+   "prazo": "2026-12-08",
+   "link": "https://pncp.gov.br/app/editais/03277610000125/2026/624",
+   "visto_em": "2026-11-24T17:42",
+   "novo_em": "2026-11-24"
   },
   {
    "id": "01179647000195-1-000414/2026",
