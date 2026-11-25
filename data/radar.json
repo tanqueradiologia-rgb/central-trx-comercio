@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-24T17:42",
+ "gerado": "2026-11-25T16:59",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -189,6 +189,20 @@
    "novo_em": "2026-11-18"
   },
   {
+   "id": "11470270000182-1-000129/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE",
+   "cidade": "Mutunópolis",
+   "uf": "GO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº (8920) | 302-0/2026",
+   "objeto": "AQUISIÇÃO DE INSUMOS,PARA ATENDER AS NECESSIDADES DA UNIDADE BÁSICA DE SAÚDE (POSTO 301) DO MUNICIPIO DE MUTUNÓPOLI/GO.",
+   "valor": null,
+   "prazo": "2026-12-01",
+   "link": "https://pncp.gov.br/app/editais/11470270000182/2026/129",
+   "visto_em": "2026-11-25T16:59",
+   "novo_em": "2026-11-25"
+  },
+  {
    "id": "02204196000161-1-000515/2026",
    "orgao": "MUNICIPIO DE ITUMBIARA",
    "cidade": "Itumbiara",
@@ -341,6 +355,20 @@
    "link": "https://pncp.gov.br/app/editais/03277610000125/2026/624",
    "visto_em": "2026-11-24T17:42",
    "novo_em": "2026-11-24"
+  },
+  {
+   "id": "00497560000101-1-000325/2026",
+   "orgao": "SUPERIOR TRIBUNAL MILITAR",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 319/2026",
+   "objeto": "Fornecimento parcelado de material odontológico.",
+   "valor": null,
+   "prazo": "2026-12-10",
+   "link": "https://pncp.gov.br/app/editais/00497560000101/2026/325",
+   "visto_em": "2026-11-25T16:59",
+   "novo_em": "2026-11-25"
   },
   {
    "id": "01179647000195-1-000414/2026",
