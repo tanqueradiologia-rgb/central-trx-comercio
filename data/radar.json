@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-25T16:59",
+ "gerado": "2026-11-26T16:43",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -203,6 +203,20 @@
    "novo_em": "2026-11-25"
   },
   {
+   "id": "00394502000144-1-000356/2027",
+   "orgao": "COMANDO DA MARINHA",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 19/2027",
+   "objeto": "Aquisição de lavadora ultrassônica para a Divisão de Odontologia do Hospital Naval de Brasília (HNBra).",
+   "valor": null,
+   "prazo": "2026-12-01",
+   "link": "https://pncp.gov.br/app/editais/00394502000144/2027/356",
+   "visto_em": "2026-11-26T16:43",
+   "novo_em": "2026-11-26"
+  },
+  {
    "id": "02204196000161-1-000515/2026",
    "orgao": "MUNICIPIO DE ITUMBIARA",
    "cidade": "Itumbiara",
@@ -243,6 +257,20 @@
    "link": "https://pncp.gov.br/app/editais/35840659000130/2026/98",
    "visto_em": "2026-11-19T16:03",
    "novo_em": "2026-11-19"
+  },
+  {
+   "id": "01567601000143-1-000352/2026",
+   "orgao": "UNIVERSIDADE FEDERAL DE GOIAS",
+   "cidade": "Goiânia",
+   "uf": "GO",
+   "modalidade": "Dispensa",
+   "edital": "Aviso de Contratação Direta nº 426/2026",
+   "objeto": "ABAIXADOR LÍNGUA; APLICADOR ODONTOLÓGICO; BARRA METAL NÃO FERROSO; BROCA CIRÚRGICA; CERA; COLETOR; EMBALAGEM, APLICAÇÃO ESTERILIZAÇÃO; EMBALAGEM, ESTERILIZAÇÃO DE FORMALDEÍDO; ESFIGMOMANÔMETRO; ESTETOSCÓPIO; FAIXA ELÁSTICA (MINI BANDE); FAIXA EXERCITADORA MUSCULAR; FIO SUTURA AGULHADO; LÂMINA BISTURI; PAPEL GRAU CIRÚRGICO; PINÇA; PORTA-AGULHA; SERINGA.",
+   "valor": null,
+   "prazo": "2026-12-02",
+   "link": "https://pncp.gov.br/app/editais/01567601000143/2026/352",
+   "visto_em": "2026-11-26T16:43",
+   "novo_em": "2026-11-26"
   },
   {
    "id": "02451938000153-1-000391/2026",
@@ -357,6 +385,20 @@
    "novo_em": "2026-11-24"
   },
   {
+   "id": "08325807000106-1-000032/2026",
+   "orgao": "FUNDO MUNICIPAL DE SAUDE",
+   "cidade": "Damolândia",
+   "uf": "GO",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 23/2026",
+   "objeto": "AQUISIÇÃO DE INSUMOS HOSPITALARES 2.",
+   "valor": null,
+   "prazo": "2026-12-08",
+   "link": "https://pncp.gov.br/app/editais/08325807000106/2026/32",
+   "visto_em": "2026-11-26T16:43",
+   "novo_em": "2026-11-26"
+  },
+  {
    "id": "00497560000101-1-000325/2026",
    "orgao": "SUPERIOR TRIBUNAL MILITAR",
    "cidade": "Brasília",
@@ -369,6 +411,34 @@
    "link": "https://pncp.gov.br/app/editais/00497560000101/2026/325",
    "visto_em": "2026-11-25T16:59",
    "novo_em": "2026-11-25"
+  },
+  {
+   "id": "00394700000108-1-000480/2026",
+   "orgao": "DISTRITO FEDERAL SECRETARIA DE SAUDE",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 283/2026",
+   "objeto": "Aquisição regular de Material Odontológico - LIMA USO ODONTOLÓGICO E OUTROS, em sistema de registro de preços, para atender às necessidades da Secretaria de Saúde – DF, conforme especificações e quantitativos constantes no Anexo I do Edital.",
+   "valor": null,
+   "prazo": "2026-12-11",
+   "link": "https://pncp.gov.br/app/editais/00394700000108/2026/480",
+   "visto_em": "2026-11-26T16:43",
+   "novo_em": "2026-11-26"
+  },
+  {
+   "id": "00394700000108-1-000483/2026",
+   "orgao": "DISTRITO FEDERAL SECRETARIA DE SAUDE",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 288/2026",
+   "objeto": "Aquisição regular de insumos para a saúde, FILME ADESIVO TRANSPARENTE NÃO ESTÉRIL e outros, em sistema de registro de preços, para atender às necessidades da Secretaria de Saúde – DF, conforme especificações e quantitativos constantes no Anexo I do Edital.",
+   "valor": null,
+   "prazo": "2026-12-14",
+   "link": "https://pncp.gov.br/app/editais/00394700000108/2026/483",
+   "visto_em": "2026-11-26T16:43",
+   "novo_em": "2026-11-26"
   },
   {
    "id": "01179647000195-1-000414/2026",

@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-25T17:04",
+ "gerado": "2026-11-26T16:48",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 232,
-   "visto_em": "2026-11-25"
+   "vezes": 239,
+   "visto_em": "2026-11-26"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 38,
-   "visto_em": "2026-11-25"
+   "vezes": 45,
+   "visto_em": "2026-11-26"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 17,
-   "visto_em": "2026-11-25"
+   "vezes": 20,
+   "visto_em": "2026-11-26"
   },
   {
    "dominio": "licitar.digital",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 41,
-   "visto_em": "2026-11-25"
+   "vezes": 48,
+   "visto_em": "2026-11-26"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -150,8 +150,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 28,
-   "visto_em": "2026-11-24"
+   "vezes": 29,
+   "visto_em": "2026-11-26"
   },
   {
    "dominio": "compras.prosaude.org.br",
@@ -520,6 +520,63 @@
    "nota": "Prefeitura de Queiroz/SP (~3 mil hab), portal em IP sem TLS. Decisao do Marcos em 15/11/2026: ignorar."
   },
   {
+   "dominio": "comprasbr.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-19",
+   "visto_em": "2026-11-26",
+   "vezes": 6,
+   "exemplos": [
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-19"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-20"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-21"
+    },
+    {
+     "edital": "Edital nº 037/2026",
+     "orgao": "MUNICIPIO DE CORGUINHO",
+     "cidade": "Corguinho",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
+     "visto_em": "2026-11-22"
+    },
+    {
+     "edital": "Edital nº 041/2026",
+     "orgao": "MUNICIPIO DE SERRO",
+     "cidade": "Serro",
+     "uf": "MG",
+     "link_pncp": "https://pncp.gov.br/app/editais/18303271000181/2026/250",
+     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=50002",
+     "visto_em": "2026-11-25"
+    }
+   ]
+  },
+  {
    "dominio": "siades.es.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -573,63 +630,6 @@
      "link_pncp": "https://pncp.gov.br/app/editais/27080605002059/2026/337",
      "url_origem": "https://siades.es.gov.br/licitacao-pub/#/licitacao-visualizacao/2460/dados-edital",
      "visto_em": "2026-11-22"
-    }
-   ]
-  },
-  {
-   "dominio": "comprasbr.com.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-19",
-   "visto_em": "2026-11-25",
-   "vezes": 5,
-   "exemplos": [
-    {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-19"
-    },
-    {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-20"
-    },
-    {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-21"
-    },
-    {
-     "edital": "Edital nº 037/2026",
-     "orgao": "MUNICIPIO DE CORGUINHO",
-     "cidade": "Corguinho",
-     "uf": "MS",
-     "link_pncp": "https://pncp.gov.br/app/editais/03501525000107/2026/76",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49874",
-     "visto_em": "2026-11-22"
-    },
-    {
-     "edital": "Edital nº 041/2026",
-     "orgao": "MUNICIPIO DE SERRO",
-     "cidade": "Serro",
-     "uf": "MG",
-     "link_pncp": "https://pncp.gov.br/app/editais/18303271000181/2026/250",
-     "url_origem": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=50002",
-     "visto_em": "2026-11-25"
     }
    ]
   },
@@ -877,6 +877,45 @@
    ]
   },
   {
+   "dominio": "legisladocexterno.curitiba.pr.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-25",
+   "visto_em": "2026-11-26",
+   "vezes": 3,
+   "exemplos": [
+    {
+     "edital": "Edital nº 84/2026",
+     "orgao": "FUNDO MUNICIPAL DA SAUDE",
+     "cidade": "Curitiba",
+     "uf": "PR",
+     "link_pncp": "https://pncp.gov.br/app/editais/13792329000184/2026/271",
+     "url_origem": "https://legisladocexterno.curitiba.pr.gov.br/DiariosConsultaExterna_PesquisaAvancada.aspx",
+     "visto_em": "2026-11-25"
+    },
+    {
+     "edital": "Edital nº 81/2026",
+     "orgao": "FUNDO MUNICIPAL DA SAUDE",
+     "cidade": "Curitiba",
+     "uf": "PR",
+     "link_pncp": "https://pncp.gov.br/app/editais/13792329000184/2026/266",
+     "url_origem": "https://legisladocexterno.curitiba.pr.gov.br/DiariosConsultaExterna_PesquisaAvancada.aspx",
+     "visto_em": "2026-11-25"
+    },
+    {
+     "edital": "Edital nº 81/2026",
+     "orgao": "FUNDO MUNICIPAL DA SAUDE",
+     "cidade": "Curitiba",
+     "uf": "PR",
+     "link_pncp": "https://pncp.gov.br/app/editais/13792329000184/2026/266",
+     "url_origem": "https://legisladocexterno.curitiba.pr.gov.br/DiariosConsultaExterna_PesquisaAvancada.aspx",
+     "visto_em": "2026-11-26"
+    }
+   ]
+  },
+  {
    "dominio": "aracajucompras.se.gov.br",
    "nome": "",
    "tipo": "a classificar",
@@ -906,6 +945,36 @@
     }
    ],
    "nota": "Aracaju/SE, ~1.650 km do DF: frete come a margem de descartavel. Decisao do Marcos em 15/11/2026: ignorar."
+  },
+  {
+   "dominio": "aracariguama.sp.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-25",
+   "visto_em": "2026-11-26",
+   "vezes": 2,
+   "exemplos": [
+    {
+     "edital": "Edital nº 28/2026",
+     "orgao": "MUNICIPIO DE ARACARIGUAMA",
+     "cidade": "Araçariguama",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/58993577000121/2026/146",
+     "url_origem": "https://www.aracariguama.sp.gov.br/portal/editais/0/1/828",
+     "visto_em": "2026-11-25"
+    },
+    {
+     "edital": "Edital nº 28/2026",
+     "orgao": "MUNICIPIO DE ARACARIGUAMA",
+     "cidade": "Araçariguama",
+     "uf": "SP",
+     "link_pncp": "https://pncp.gov.br/app/editais/58993577000121/2026/146",
+     "url_origem": "https://www.aracariguama.sp.gov.br/portal/editais/0/1/828",
+     "visto_em": "2026-11-26"
+    }
+   ]
   },
   {
    "dominio": "compras.barueri.sp.gov.br",
@@ -1028,36 +1097,6 @@
    ]
   },
   {
-   "dominio": "legisladocexterno.curitiba.pr.gov.br",
-   "nome": "",
-   "tipo": "a classificar",
-   "situacao_comercio": "sem cadastro",
-   "decisao": "a avaliar",
-   "primeira_vez": "2026-11-25",
-   "visto_em": "2026-11-25",
-   "vezes": 2,
-   "exemplos": [
-    {
-     "edital": "Edital nº 84/2026",
-     "orgao": "FUNDO MUNICIPAL DA SAUDE",
-     "cidade": "Curitiba",
-     "uf": "PR",
-     "link_pncp": "https://pncp.gov.br/app/editais/13792329000184/2026/271",
-     "url_origem": "https://legisladocexterno.curitiba.pr.gov.br/DiariosConsultaExterna_PesquisaAvancada.aspx",
-     "visto_em": "2026-11-25"
-    },
-    {
-     "edital": "Edital nº 81/2026",
-     "orgao": "FUNDO MUNICIPAL DA SAUDE",
-     "cidade": "Curitiba",
-     "uf": "PR",
-     "link_pncp": "https://pncp.gov.br/app/editais/13792329000184/2026/266",
-     "url_origem": "https://legisladocexterno.curitiba.pr.gov.br/DiariosConsultaExterna_PesquisaAvancada.aspx",
-     "visto_em": "2026-11-25"
-    }
-   ]
-  },
-  {
    "dominio": "licitamaisbrasil.com.br",
    "nome": "",
    "tipo": "a classificar",
@@ -1160,23 +1199,65 @@
    ]
   },
   {
-   "dominio": "aracariguama.sp.gov.br",
+   "dominio": "alcinopolis.ms.gov.br",
    "nome": "",
    "tipo": "a classificar",
    "situacao_comercio": "sem cadastro",
    "decisao": "a avaliar",
-   "primeira_vez": "2026-11-25",
-   "visto_em": "2026-11-25",
+   "primeira_vez": "2026-11-26",
+   "visto_em": "2026-11-26",
    "vezes": 1,
    "exemplos": [
     {
-     "edital": "Edital nº 28/2026",
-     "orgao": "MUNICIPIO DE ARACARIGUAMA",
-     "cidade": "Araçariguama",
-     "uf": "SP",
-     "link_pncp": "https://pncp.gov.br/app/editais/58993577000121/2026/146",
-     "url_origem": "https://www.aracariguama.sp.gov.br/portal/editais/0/1/828",
-     "visto_em": "2026-11-25"
+     "edital": "Edital nº 22/2026",
+     "orgao": "FUNDO MUNICIPAL DE SAUDE DE ALCINOPOLIS",
+     "cidade": "Alcinópolis",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/11955273000106/2026/13",
+     "url_origem": "https://www.alcinopolis.ms.gov.br/site/wp-content/uploads/2026/11/Diario-Oficial-Eletronico-Edicao-no2.235-24-11-26.pdf",
+     "visto_em": "2026-11-26"
+    }
+   ]
+  },
+  {
+   "dominio": "compras.campogrande.ms.gov.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-26",
+   "visto_em": "2026-11-26",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 194/2026",
+     "orgao": "MUNICIPIO DE CAMPO GRANDE",
+     "cidade": "Campo Grande",
+     "uf": "MS",
+     "link_pncp": "https://pncp.gov.br/app/editais/03501509000106/2026/224",
+     "url_origem": "https://compras.campogrande.ms.gov.br/licitacao-pub/#/licitacao-visualizacao/496/dados-edital",
+     "visto_em": "2026-11-26"
+    }
+   ]
+  },
+  {
+   "dominio": "portalserratalhada.com.br",
+   "nome": "",
+   "tipo": "a classificar",
+   "situacao_comercio": "sem cadastro",
+   "decisao": "a avaliar",
+   "primeira_vez": "2026-11-26",
+   "visto_em": "2026-11-26",
+   "vezes": 1,
+   "exemplos": [
+    {
+     "edital": "Edital nº 084/2026/2026",
+     "orgao": "MUNICIPIO DE SERRA TALHADA",
+     "cidade": "Serra Talhada",
+     "uf": "PE",
+     "link_pncp": "https://pncp.gov.br/app/editais/10282945000105/2026/122",
+     "url_origem": "http://www.portalserratalhada.com.br",
+     "visto_em": "2026-11-26"
     }
    ]
   },
@@ -1224,14 +1305,14 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 640,
-  "com_origem": 488,
-  "sem_origem": 152,
-  "rodadas": 16,
-  "ultima_rodada": "2026-11-25T17:04",
+  "editais_lidos": 680,
+  "com_origem": 519,
+  "sem_origem": 161,
+  "rodadas": 17,
+  "ultima_rodada": "2026-11-26T16:48",
   "campos_usados": {
-   "link_sistema_origem": 31,
-   "link_processo_eletronico (varredura)": 2
+   "link_sistema_origem": 30,
+   "link_processo_eletronico (varredura)": 1
   }
  }
 }
