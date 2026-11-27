@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-26T16:48",
+ "gerado": "2026-11-27T16:37",
  "origem": "Carga inicial de 13/11/2026, do levantamento Plataformas_Compras_Publicas_2026-11-12.xlsx",
  "conhecidas": [
   {
@@ -19,8 +19,8 @@
    "prioridade": 1,
    "situacao_comercio": "sem cadastro",
    "nota": "Raiz da habilitacao. Sem SICAF nao ha federal nem EBSERH.",
-   "vezes": 239,
-   "visto_em": "2026-11-26"
+   "vezes": 259,
+   "visto_em": "2026-11-27"
   },
   {
    "dominio": "portalfornecedor.isgh.org.br",
@@ -59,8 +59,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 45,
-   "visto_em": "2026-11-26"
+   "vezes": 51,
+   "visto_em": "2026-11-27"
   },
   {
    "dominio": "bionexo.com",
@@ -88,8 +88,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Perfil de municipio pequeno, que e o volume inicial desejado.",
-   "vezes": 20,
-   "visto_em": "2026-11-26"
+   "vezes": 21,
+   "visto_em": "2026-11-27"
   },
   {
    "dominio": "licitar.digital",
@@ -110,8 +110,8 @@
    "prioridade": 2,
    "situacao_comercio": "sem cadastro",
    "nota": "Decisao do Marcos em 15/11/2026: manter e cadastrar no gratuito. FHEMIG compra material hospitalar com frequencia; frete rodoviario DF-BH viavel.",
-   "vezes": 9,
-   "visto_em": "2026-11-22"
+   "vezes": 11,
+   "visto_em": "2026-11-27"
   },
   {
    "dominio": "portaldecompraspublicas.com.br",
@@ -121,8 +121,8 @@
    "prioridade": 2,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 48,
-   "visto_em": "2026-11-26"
+   "vezes": 51,
+   "visto_em": "2026-11-27"
   },
   {
    "dominio": "bbmnetlicitacoes.com.br",
@@ -170,8 +170,8 @@
    "prioridade": 3,
    "situacao_comercio": "",
    "nota": "",
-   "vezes": 32,
-   "visto_em": "2026-11-25"
+   "vezes": 34,
+   "visto_em": "2026-11-27"
   },
   {
    "dominio": "compras.mg.gov.br",
@@ -1305,14 +1305,13 @@
   }
  ],
  "estatistica": {
-  "editais_lidos": 680,
-  "com_origem": 519,
-  "sem_origem": 161,
-  "rodadas": 17,
-  "ultima_rodada": "2026-11-26T16:48",
+  "editais_lidos": 720,
+  "com_origem": 553,
+  "sem_origem": 167,
+  "rodadas": 18,
+  "ultima_rodada": "2026-11-27T16:37",
   "campos_usados": {
-   "link_sistema_origem": 30,
-   "link_processo_eletronico (varredura)": 1
+   "link_sistema_origem": 34
   }
  }
 }

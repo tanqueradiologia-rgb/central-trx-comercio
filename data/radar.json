@@ -1,5 +1,5 @@
 {
- "gerado": "2026-11-26T16:43",
+ "gerado": "2026-11-27T16:31",
  "teto": 60000.0,
  "ufs": [
   "DF",
@@ -343,6 +343,20 @@
    "novo_em": "2026-11-23"
   },
   {
+   "id": "00236968000111-1-000170/2026",
+   "orgao": "MUNICIPIO DE NOVA CRIXAS",
+   "cidade": "Nova Crixás",
+   "uf": "GO",
+   "modalidade": "Pregão - Presencial",
+   "edital": "Edital nº 28/2026",
+   "objeto": "FORNECIMENTO DE MATERIAIS DE COPA E COZINHA, UTENSÍLIOS DOMÉSTICOS E MATERIAIS DESCARTÁVEIS, DESTINADOS AO ATENDIMENTO DAS NECESSIDADES DAS SECRETARIAS E FUNDOS MUNICIPAIS DA PREFEITURA MUNICIPAL DE NOVA CRIXÁS/GO.",
+   "valor": null,
+   "prazo": "2026-12-07",
+   "link": "https://pncp.gov.br/app/editais/00236968000111/2026/170",
+   "visto_em": "2026-11-27T16:31",
+   "novo_em": "2026-11-27"
+  },
+  {
    "id": "02215275000178-1-001136/2026",
    "orgao": "MUNICIPIO DE MINACU",
    "cidade": "Minaçu",
@@ -371,20 +385,6 @@
    "novo_em": "2026-11-19"
   },
   {
-   "id": "03277610000125-1-000624/2026",
-   "orgao": "MINISTERIO DA DEFESA",
-   "cidade": "Brasília",
-   "uf": "DF",
-   "modalidade": "Pregão - Eletrônico",
-   "edital": "Edital nº 368/2026",
-   "objeto": "Aquisição de material de consumo para atendimento das necessidades dos procedimentos realizados na SECME (3º andar) e na SCME da Divisão de Odontologia.",
-   "valor": null,
-   "prazo": "2026-12-08",
-   "link": "https://pncp.gov.br/app/editais/03277610000125/2026/624",
-   "visto_em": "2026-11-24T17:42",
-   "novo_em": "2026-11-24"
-  },
-  {
    "id": "08325807000106-1-000032/2026",
    "orgao": "FUNDO MUNICIPAL DE SAUDE",
    "cidade": "Damolândia",
@@ -397,6 +397,20 @@
    "link": "https://pncp.gov.br/app/editais/08325807000106/2026/32",
    "visto_em": "2026-11-26T16:43",
    "novo_em": "2026-11-26"
+  },
+  {
+   "id": "03277610000125-1-000624/2026",
+   "orgao": "MINISTERIO DA DEFESA",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "modalidade": "Pregão - Eletrônico",
+   "edital": "Edital nº 368/2026",
+   "objeto": "Aquisição de material de consumo para atendimento das necessidades dos procedimentos realizados na SECME (3º andar) e na SCME da Divisão de Odontologia.",
+   "valor": null,
+   "prazo": "2026-12-09",
+   "link": "https://pncp.gov.br/app/editais/03277610000125/2026/624",
+   "visto_em": "2026-11-24T17:42",
+   "novo_em": "2026-11-24"
   },
   {
    "id": "00497560000101-1-000325/2026",
